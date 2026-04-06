@@ -1,0 +1,8 @@
+# Iteration 1 Specific Ignores
+Folders/
+debug/
+masked/
+*.pdf
+*.jpg
+*.jpeg
+api_key.txt
