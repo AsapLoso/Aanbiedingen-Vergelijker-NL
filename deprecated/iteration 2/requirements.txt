@@ -1,0 +1,16 @@
+# Boodschappen Legacy & Web Dependencies
+# Consolidated requirements for Iteration 2
+
+# Legacy (PDF/Gemini)
+pypdf
+google-generativeai
+Pillow
+playwright
+
+# Web Scraping
+selenium
+beautifulsoup4
+lxml
+
+# Shared
+requests

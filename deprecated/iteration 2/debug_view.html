@@ -1,0 +1,2431 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Visualization</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; background-color: #333; color: #fff; }
+        .page-container { 
+            margin-bottom: 30px; 
+            border: 1px solid #555; 
+            padding: 15px; 
+            background-color: #222;
+            border-radius: 8px;
+        }
+        .controls { margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid #444; }
+        h3 { margin-top: 0; color: #eee; }
+        img { max-width: 100%; border: 1px solid #000; display: block; }
+        label { cursor: pointer; font-size: 1.1em; user-select: none; }
+        input[type="checkbox"] { transform: scale(1.5); margin-right: 10px; }
+    </style>
+    <script>
+        function toggleMask(checkbox) {
+            const container = checkbox.closest('.page-container');
+            const img = container.querySelector('img');
+            const debugSrc = img.getAttribute('data-debug');
+            const maskedSrc = img.getAttribute('data-masked');
+            
+            if (checkbox.checked) {
+                img.src = maskedSrc;
+            } else {
+                img.src = debugSrc;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Debug Visualization</h1>
+    <p>Check the box to see the "Masked" (Blackout) version.</p>
+
+    <div class="page-container">
+        <h3>AH - page_10</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_10_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_10_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_10_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_11</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_11_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_11_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_11_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_12</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_12_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_12_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_12_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_13</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_13_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_13_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_13_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_14</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_14_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_14_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_14_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_15</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_15_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_15_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_15_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_16</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_16_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_16_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_16_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_17</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_17_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_17_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_17_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_18</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_18_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_18_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_18_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_19</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_19_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_19_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_19_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_1</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_1_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_1_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_1_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_20</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_20_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_20_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_20_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_21</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_21_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_21_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_21_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_22</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_22_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_22_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_22_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_23</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_23_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_23_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_23_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_24</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_24_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_24_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_24_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_25</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_25_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_25_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_25_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_26</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_26_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_26_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_26_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_27</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_27_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_27_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_27_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_28</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_28_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_28_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_28_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_29</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_29_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_29_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_29_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_2</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_2_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_2_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_2_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_30</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_30_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_30_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_30_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_31</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_31_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_31_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_31_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_32</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_32_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_32_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_32_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_33</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_33_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_33_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_33_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_34</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_34_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_34_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_34_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_35</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_35_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_35_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_35_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_36</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_36_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_36_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_36_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_37</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_37_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_37_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_37_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_38</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_38_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_38_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_38_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_39</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_39_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_39_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_39_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_3</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_3_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_3_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_3_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_40</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_40_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_40_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_40_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_4</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_4_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_4_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_4_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_5</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_5_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_5_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_5_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_6</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_6_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_6_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_6_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_7</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_7_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_7_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_7_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_8</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_8_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_8_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_8_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>AH - page_9</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\AH\debug_viz\page_9_viz.jpg" 
+             data-debug="Folders\week 48\AH\debug_viz\page_9_viz.jpg" 
+             data-masked="Folders\week 48\AH\masked_viz\page_9_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_10</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_10_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_10_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_10_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_11</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_11_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_11_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_11_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_12</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_12_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_12_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_12_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_13</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_13_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_13_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_13_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_14</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_14_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_14_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_14_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_15</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_15_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_15_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_15_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_16</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_16_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_16_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_16_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_17</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_17_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_17_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_17_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_18</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_18_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_18_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_18_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_19</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_19_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_19_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_19_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_1</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_1_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_1_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_1_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_20</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_20_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_20_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_20_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_21</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_21_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_21_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_21_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_22</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_22_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_22_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_22_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_23</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_23_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_23_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_23_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_24</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_24_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_24_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_24_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_25</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_25_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_25_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_25_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_26</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_26_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_26_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_26_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_27</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_27_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_27_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_27_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_28</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_28_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_28_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_28_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_29</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_29_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_29_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_29_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_2</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_2_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_2_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_2_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_30</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_30_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_30_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_30_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_31</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_31_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_31_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_31_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_32</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_32_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_32_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_32_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_33</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_33_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_33_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_33_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_34</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_34_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_34_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_34_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_35</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_35_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_35_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_35_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_36</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_36_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_36_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_36_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_37</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_37_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_37_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_37_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_38</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_38_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_38_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_38_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_39</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_39_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_39_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_39_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_3</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_3_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_3_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_3_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_40</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_40_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_40_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_40_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_41</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_41_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_41_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_41_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_42</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_42_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_42_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_42_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_43</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_43_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_43_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_43_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_44</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_44_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_44_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_44_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_45</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_45_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_45_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_45_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_46</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_46_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_46_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_46_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_47</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_47_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_47_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_47_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_48</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_48_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_48_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_48_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_49</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_49_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_49_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_49_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_4</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_4_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_4_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_4_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_50</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_50_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_50_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_50_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_51</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_51_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_51_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_51_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_52</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_52_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_52_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_52_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_53</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_53_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_53_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_53_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_54</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_54_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_54_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_54_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_55</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_55_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_55_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_55_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_56</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_56_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_56_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_56_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_57</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_57_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_57_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_57_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_58</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_58_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_58_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_58_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_59</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_59_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_59_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_59_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_5</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_5_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_5_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_5_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_60</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_60_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_60_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_60_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_61</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_61_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_61_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_61_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_62</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_62_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_62_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_62_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_63</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_63_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_63_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_63_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_64</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_64_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_64_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_64_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_65</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_65_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_65_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_65_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_66</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_66_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_66_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_66_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_6</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_6_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_6_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_6_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_7</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_7_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_7_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_7_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_8</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_8_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_8_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_8_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Aldi - page_9</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Aldi\debug_viz\page_9_viz.jpg" 
+             data-debug="Folders\week 48\Aldi\debug_viz\page_9_viz.jpg" 
+             data-masked="Folders\week 48\Aldi\masked_viz\page_9_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_10</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_10_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_10_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_10_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_11</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_11_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_11_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_11_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_12</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_12_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_12_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_12_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_13</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_13_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_13_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_13_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_14</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_14_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_14_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_14_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_15</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_15_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_15_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_15_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_16</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_16_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_16_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_16_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_17</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_17_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_17_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_17_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_18</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_18_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_18_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_18_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_19</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_19_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_19_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_19_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_1</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_1_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_1_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_1_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_20</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_20_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_20_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_20_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_21</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_21_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_21_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_21_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_22</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_22_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_22_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_22_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_23</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_23_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_23_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_23_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_24</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_24_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_24_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_24_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_25</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_25_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_25_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_25_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_26</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_26_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_26_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_26_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_27</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_27_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_27_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_27_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_28</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_28_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_28_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_28_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_29</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_29_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_29_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_29_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_2</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_2_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_2_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_2_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_30</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_30_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_30_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_30_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_31</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_31_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_31_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_31_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_32</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_32_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_32_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_32_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_33</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_33_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_33_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_33_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_34</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_34_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_34_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_34_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_35</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_35_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_35_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_35_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_36</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_36_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_36_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_36_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_37</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_37_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_37_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_37_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_38</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_38_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_38_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_38_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_3</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_3_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_3_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_3_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_4</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_4_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_4_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_4_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_5</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_5_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_5_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_5_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_6</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_6_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_6_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_6_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_7</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_7_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_7_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_7_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_8</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_8_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_8_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_8_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Dirk - page_9</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Dirk\debug_viz\page_9_viz.jpg" 
+             data-debug="Folders\week 48\Dirk\debug_viz\page_9_viz.jpg" 
+             data-masked="Folders\week 48\Dirk\masked_viz\page_9_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_10</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_10_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_10_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_10_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_11</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_11_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_11_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_11_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_12</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_12_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_12_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_12_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_13</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_13_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_13_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_13_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_14</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_14_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_14_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_14_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_15</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_15_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_15_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_15_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_16</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_16_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_16_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_16_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_17</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_17_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_17_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_17_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_18</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_18_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_18_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_18_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_19</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_19_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_19_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_19_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_1</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_1_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_1_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_1_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_20</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_20_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_20_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_20_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_21</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_21_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_21_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_21_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_22</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_22_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_22_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_22_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_23</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_23_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_23_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_23_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_24</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_24_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_24_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_24_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_25</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_25_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_25_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_25_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_26</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_26_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_26_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_26_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_27</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_27_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_27_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_27_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_28</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_28_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_28_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_28_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_29</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_29_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_29_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_29_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_2</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_2_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_2_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_2_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_30</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_30_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_30_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_30_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_31</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_31_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_31_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_31_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_32</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_32_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_32_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_32_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_33</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_33_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_33_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_33_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_34</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_34_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_34_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_34_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_35</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_35_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_35_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_35_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_36</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_36_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_36_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_36_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_3</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_3_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_3_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_3_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_4</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_4_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_4_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_4_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_5</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_5_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_5_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_5_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_6</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_6_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_6_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_6_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_7</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_7_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_7_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_7_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_8</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_8_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_8_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_8_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Hoogvliet - page_9</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Hoogvliet\debug_viz\page_9_viz.jpg" 
+             data-debug="Folders\week 48\Hoogvliet\debug_viz\page_9_viz.jpg" 
+             data-masked="Folders\week 48\Hoogvliet\masked_viz\page_9_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_10</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_10_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_10_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_10_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_11</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_11_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_11_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_11_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_12</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_12_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_12_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_12_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_13</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_13_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_13_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_13_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_14</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_14_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_14_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_14_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_15</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_15_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_15_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_15_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_16</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_16_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_16_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_16_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_17</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_17_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_17_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_17_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_18</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_18_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_18_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_18_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_19</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_19_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_19_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_19_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_1</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_1_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_1_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_1_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_2</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_2_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_2_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_2_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_3</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_3_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_3_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_3_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_4</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_4_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_4_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_4_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_5</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_5_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_5_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_5_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_6</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_6_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_6_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_6_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_7</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_7_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_7_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_7_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_8</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_8_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_8_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_8_masked.jpg">
+    </div>
+
+    <div class="page-container">
+        <h3>Jumbo - page_9</h3>
+        <div class="controls">
+            <label>
+                <input type="checkbox" onchange="toggleMask(this)"> Show Masked (Blackout)
+            </label>
+        </div>
+        <img src="Folders\week 48\Jumbo\debug_viz\page_9_viz.jpg" 
+             data-debug="Folders\week 48\Jumbo\debug_viz\page_9_viz.jpg" 
+             data-masked="Folders\week 48\Jumbo\masked_viz\page_9_masked.jpg">
+    </div>
+
+</body>
+</html>

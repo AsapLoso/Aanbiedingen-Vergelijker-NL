@@ -1,0 +1,5 @@
+# Iteration 2 Specific Ignores
+*.html
+*.png
+ah_debug_*.png
+debug_ah.png
