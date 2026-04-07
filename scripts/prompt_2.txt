@@ -1,0 +1,1502 @@
+[
+  {
+    "original_name": "Koolmonoxidemelder",
+    "standardized_name": "Koolmonoxidemelders",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Rookmelder",
+    "standardized_name": "Rookmelders",
+    "category": "Overige"
+  },
+  {
+    "original_name": "5-in-1 siliconen- verwijderaarset",
+    "standardized_name": "Siliconenverwijderaarsets",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Snelspanklemmenset Set van 2: ca. 50x31cm of set van 4: ca. 20x11 cm/ 35x16 cm",
+    "standardized_name": "Snelspanklemmensets",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Tochtstrip Ca. 95 cm",
+    "standardized_name": "Tochtstrips",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Ledzaklamp 1200 lm",
+    "standardized_name": "Zaklampen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Speciaal-borenset",
+    "standardized_name": "Borensets",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Schroevendraaier- en bitset",
+    "standardized_name": "Schroevendraaiersets",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Verlengsnoer 10 m",
+    "standardized_name": "Verlengsnoeren",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Ringsteeksleutelset",
+    "standardized_name": "Ringsteeksleutelsets",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Ledbouwlamp",
+    "standardized_name": "Bouwlampen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Ventilator-kachel",
+    "standardized_name": "Ventilatorkachels",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Teddy fleecedeken Ca. 150x200 cm. Per stuk.",
+    "standardized_name": "Fleecedekens",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Rug- of gewrichtsverwarmer Rugverwarmer: S t/m XL. Gewrichtsverwarmer: one size. Per stuk.",
+    "standardized_name": "Rugverwarmers",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Huispak 78% katoen/ 22% polyester. S t/m XL. Per set.",
+    "standardized_name": "Huispakken",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Pantoffels 37 t/m 41. Per paar.",
+    "standardized_name": "Pantoffels",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Mouwloos fleecevest S t/m XL",
+    "standardized_name": "Fleecevesten",
+    "category": "Overige"
+  },
+  {
+    "original_name": "3-pack sokken Grof gebreid. 39-42 of 43-46.",
+    "standardized_name": "Sokken",
+    "category": "Overige"
+  },
+  {
+    "original_name": "2-pack sokken Met wol. 37-39 t/m 43-45.",
+    "standardized_name": "Sokken",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Pantoffels 36-37 t/m 40-41",
+    "standardized_name": "Pantoffels",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Corduroy pantoffels Zwart: 44 t/m 46. Beige: 41 t/m 43.",
+    "standardized_name": "Pantoffels",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Elektrische of gasaansteker Elektrische aansteker incl. USB-C-kabel. Gas-aansteker incl. navulfles van ca. 18 ml.",
+    "standardized_name": "Aanstekers",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Heetwaterdispenser Geschikt voor het opwarmen en warmhouden van dranken. ca. 4 l instelbare warmte ca. 40-100 \u00b0C met tapkraan",
+    "standardized_name": "Heetwaterdispensers",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Kersttafel-kleed of -tafelloper Ca. 85x85 cm of 50x150 cm",
+    "standardized_name": "Tafelkleden",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Kristalglas 6-pack glazen Water-, champagne- of wijnglazen",
+    "standardized_name": "Glazen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Raclette of fondueset 1400-1500 W",
+    "standardized_name": "Raclettesets",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Bestek 0.a. taartmes en -schep, slacouvert, 6 taartvorkjes.",
+    "standardized_name": "Bestek",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Etag\u00e8re New bone-porselein. Met 2 of 3 niveaus.",
+    "standardized_name": "Etag\u00e8res",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Servies Bord: ca. 25x39 cm, saladekom: ca. \u00d8 32 cm of 2x kom: ca. \u00d8 24 cm.",
+    "standardized_name": "Servies",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Bureaukalender",
+    "standardized_name": "Kalenders",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Douchegel 400 ml.",
+    "standardized_name": "Douchegels",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Shampoo en showergel 2 in 1 300 ml.",
+    "standardized_name": "Shampoos",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Red Bull 250 ml.",
+    "standardized_name": "Energiedranken",
+    "category": "Drinken"
+  },
+  {
+    "original_name": "GOLDEN POWER Regular 250 ml.",
+    "standardized_name": "Energiedranken",
+    "category": "Drinken"
+  },
+  {
+    "original_name": "Light margarine kuip 600 g.",
+    "standardized_name": "Margarines",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "Bewust light kuip 500 g.",
+    "standardized_name": "Margarines",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "Pyjama 75% katoen/25% polyester. 122-128 t/m 146-152.",
+    "standardized_name": "Pyjama's",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Pyjama 75% katoen/25% polyester. 86-92 t/m 110-116.",
+    "standardized_name": "Pyjama's",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Lounge hoodie 110-122 of 128-140.",
+    "standardized_name": "Hoodies",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Dekbedovertrek 100% katoen. Met instopstrook. Ca. 140x200 cm + 60x70 cm.",
+    "standardized_name": "Dekbedovertrekken",
+    "category": "Overige"
+  },
+  {
+    "original_name": "2-pack flanellen kussenslopen 100% katoen. Ca. 60x70 cm.",
+    "standardized_name": "Kussenslopen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Hoeslaken 100% katoen. Max. matrashoogte: 20 cm. ca. 90x200 cm",
+    "standardized_name": "Hoeslakens",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Hoeslaken 100% katoen. Max. matrashoogte: 20 cm. ca. 140x200 cm",
+    "standardized_name": "Hoeslakens",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Hoeslaken 100% katoen. Max. matrashoogte: 20 cm. ca. 160x200 cm",
+    "standardized_name": "Hoeslakens",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Hoeslaken 100% katoen. Max. matrashoogte: 20 cm. ca. 180x200 cm",
+    "standardized_name": "Hoeslakens",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Flanellen dekbedovertrek 100% katoen. Met instopstrook. ca. 140x200 cm + 60x70 cm",
+    "standardized_name": "Dekbedovertrekken",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Flanellen dekbedovertrek 100% katoen. Met instopstrook. ca. 200x200 cm + 2x 60x70 cm",
+    "standardized_name": "Dekbedovertrekken",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Flanellen dekbedovertrek 100% katoen. Met instopstrook. ca. 240x220 cm + 2x 60x70 cm",
+    "standardized_name": "Dekbedovertrekken",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Trui S t/m L. Per stuk.",
+    "standardized_name": "Truien",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Merinowollen trui M t/m XL. Per stuk.",
+    "standardized_name": "Truien",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Fleece-pyjama S t/m L. Per set.",
+    "standardized_name": "Pyjama's",
+    "category": "Overige"
+  },
+  {
+    "original_name": "2-pack huissokken 35-38 of 39-42.",
+    "standardized_name": "Huissokken",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Shirt S t/m XL",
+    "standardized_name": "Shirts",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Pantalon 60% katoen/ 38% polyester/ 2% elastaan. S t/m XL",
+    "standardized_name": "Pantalons",
+    "category": "Overige"
+  },
+  {
+    "original_name": "5-pack sokken giftbox 79% katoen/ 20% polyamide/ 1% elastaan. 35-38 t/m 43-46",
+    "standardized_name": "Sokken",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Thermo-jeans 98% katoen/ 2% elastaan. 48 t/m 56. Per stuk.",
+    "standardized_name": "Jeans",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Leren inlegzolen 36-37 t/m 44-45. Per paar.",
+    "standardized_name": "Inlegzolen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Lamsvacht pantoffels Lichtbruin: 37 t/m 41 of donkerbruin: 42 t/m 45. Per paar.",
+    "standardized_name": "Pantoffels",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Rode puntpaprikas 500 G",
+    "standardized_name": "Paprika's",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Snijbonen",
+    "standardized_name": "Snijbonen",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Junami appels",
+    "standardized_name": "Appels",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Bloemkoolrijst",
+    "standardized_name": "Bloemkoolrijst",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Krokante hamburgers Inhoud: 2 stuks, 200-260 g.",
+    "standardized_name": "Hamburgers",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Ribkarbonade 560 g.",
+    "standardized_name": "Ribkarbonades",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Argentijnse steaks Inhoud: 2 stuks, 250 g.",
+    "standardized_name": "Steaks",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Gehaktschnitzels Inhoud: 2 stuks, 400 g.",
+    "standardized_name": "Gehaktschnitzels",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Kip crunchies 400 g.",
+    "standardized_name": "Kipsnacks",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Tempeh blokjes 180 g.",
+    "standardized_name": "Tempeh",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Filet americain OP=OP. 175 g.",
+    "standardized_name": "Filet americain",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Spekreepjes OP=OP.",
+    "standardized_name": "Spekreepjes",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Cranberry- of roompat\u00e9 150 g.",
+    "standardized_name": "Pat\u00e9",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Kipvleugels 250 g.",
+    "standardized_name": "Kipvleugels",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Snuggle hoodie kids",
+    "standardized_name": "Hoodies",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Snuggle hoodie",
+    "standardized_name": "Hoodies",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Hutspot of Poldergoud geschilde stamppot aardappelen Zak 500 gram of 1 kilo",
+    "standardized_name": "Hutspotgroenten",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Groene salade Caesar of komkommer farmer",
+    "standardized_name": "Salades",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Hollandse Elstar appels 1.5 KILO",
+    "standardized_name": "Appels",
+    "category": "AGF"
+  },
+  {
+    "original_name": "BIO+ rode kool met appel Zak 500 gram",
+    "standardized_name": "Rode kool",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Avocado's ready to eat Schaal 2 stuks",
+    "standardized_name": "Avocado's",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Mandarijnen",
+    "standardized_name": "Mandarijnen",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Broccoli",
+    "standardized_name": "Broccoli",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Snijbonen 400 gram",
+    "standardized_name": "Snijbonen",
+    "category": "AGF"
+  },
+  {
+    "original_name": "chocoladeletter, chocolade, kruidnoten, chocolate chip, chocolade sintjes",
+    "standardized_name": "Chocoladeletters",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Magere varkenslappen Pak 5 stuks",
+    "standardized_name": "Varkenslappen",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Zalmfilet met huid Pak 2 stuks",
+    "standardized_name": "Zalmfilets",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Hongaarse gehaktschnitzels Pak 4 stuks.",
+    "standardized_name": "Gehaktschnitzels",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Ribkarbonade Pak 5 stuks",
+    "standardized_name": "Ribkarbonades",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Marine style filet of sensational chipolata worsten. Pak 180 gram. OP=OP",
+    "standardized_name": "Filets",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Kipdrumsticks Naturel. Pak 450 gram.",
+    "standardized_name": "Kipdrumsticks",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Crumbel sint speculooskoeken Bak 270 gram",
+    "standardized_name": "Speculaas",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Speculaas gevulde koeken",
+    "standardized_name": "Gevulde koeken",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Mini rozijnenbollen Zak 9 stuks",
+    "standardized_name": "Rozijnenbollen",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Ronde kaassuisse of ham-kaas croissant Vers afgebakken. Per stuk.",
+    "standardized_name": "Kaassuisses",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Polders brood Wit of bruin meergranen",
+    "standardized_name": "Brood",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Jonge kaas 48+",
+    "standardized_name": "Kaas",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "Grillworst Naturel. Pak 125 gram",
+    "standardized_name": "Grillworst",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Ovengebakken schouderham Pak 100 gram.",
+    "standardized_name": "Schouderham",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Maaslander of Old Amsterdam kaasplakken Alle varianten (m.u.v. geitenkaas). Pak 100-150 gram.",
+    "standardized_name": "Kaasplakken",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "Alle varianten (m.u.v. light en vegan). Kuip 90 - 185 ml.",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Bami of nasi speciaal Bak 450 gram. OP=OP",
+    "standardized_name": "Bami",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Salade Luxe ei, rundvlees of zalm. Schotel 200 gram.",
+    "standardized_name": "Salades",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Sap Alle varianten. Pak 1 liter.",
+    "standardized_name": "Sappen",
+    "category": "Drinken"
+  },
+  {
+    "original_name": "Gevulde verse pasta Paddenstoel & mozzarella, Parmezaanse kaas & truffel of basilicum & provolone kaas. Pak 250 gram.",
+    "standardized_name": "Verse pasta",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Alle varianten. Fles 300 ml, kuip 200 gram of reep 45 gram.",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "hoekje Alle varianten. Kuip 150 gram.",
+    "standardized_name": "Toetjes",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "Alle varianten. Bak 450 of 500 gram, pak 1 liter of fles 330 ml.",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Mexx pantoffels In diverse kleuren. Maten 37 t/m 45.",
+    "standardized_name": "Pantoffels",
+    "category": "Overige"
+  },
+  {
+    "original_name": "DIRK-STUNT",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Kerstblazer In 3 dessins. Maten M t/m XL.",
+    "standardized_name": "Blazers",
+    "category": "Overige"
+  },
+  {
+    "original_name": "KERSTDEAL",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Page toiletpapier",
+    "standardized_name": "Toiletpapier",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Gold oploskoffie Pot 200 gram",
+    "standardized_name": "Oploskoffie",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "pap Alle varianten. Pak 1 liter",
+    "standardized_name": "Pap",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "Dubai chocolade Reep 100 gram",
+    "standardized_name": "Chocolade",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Flamin' Hot Zak 160 gram",
+    "standardized_name": "Chips",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Remia saus Alle varianten. Statube 500 ml.",
+    "standardized_name": "Sauzen",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Heineken pils Blik 25 cl. OP=OP",
+    "standardized_name": "Bier",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Dove deodorant Original, Clean Comfort, Extra Fresh of Go Fresh. Bus 150 ml.",
+    "standardized_name": "Deodorant",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Page Zacht & Sterk Per voordeelpak. 18 ROLLEN",
+    "standardized_name": "Toiletpapier",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Bolletje crackers Alle varianten. Pak 190 - 270 gram.",
+    "standardized_name": "Crackers",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Chocomel, Fristi of Optimel Alle varianten. 6-pack \u00e0 200 ml.",
+    "standardized_name": "Zuiveldranken",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "Iglo Kapiteins Klassiekers, Viskraam of Fish & Fun Alle varianten. Pak 224 - 300 gram.",
+    "standardized_name": "Vis",
+    "category": "Diepvries"
+  },
+  {
+    "original_name": "Wagner Sensazione pizza Alle varianten. Per stuk.",
+    "standardized_name": "Pizza's",
+    "category": "Diepvries"
+  },
+  {
+    "original_name": "Princes tonijnstukken In water of zonnebloemolie. Blik 145 gram.",
+    "standardized_name": "Tonijn",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Knorr maaltijdmix of soep Alle varianten. Per stuk 30-100 gram.",
+    "standardized_name": "Maaltijdmixen",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Alle varianten. Pot 515 - 535 gram.",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Kesbeke tafelzuren Alle varianten. Pot 330 - 675 gram.",
+    "standardized_name": "Tafelzuren",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Alle varianten. Pak 3, 6 of 8 stuks of 25 gram.",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Daim, Oreo of Milka ijs Beker 425 ml. OP=OP",
+    "standardized_name": "IJs",
+    "category": "Diepvries"
+  },
+  {
+    "original_name": "Fruitbiscuits 5-Pack",
+    "standardized_name": "Fruitbiscuits",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Originals koek Pak 150-250 gram",
+    "standardized_name": "Koek",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "koffiecups Pak 10 stuks",
+    "standardized_name": "Koffiecups",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "chocoladeletters of harten Per stuk 135 gram",
+    "standardized_name": "Chocoladeletters",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "thee Pak 20 stuks",
+    "standardized_name": "Thee",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Fles 400 of 500 ml.",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "10-PACK",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Pak 1.5 liter.",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Fles 1 liter.",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Alle varianten. Zak 150- 185 gram",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "4-pack fles \u00e0 33 cl",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "6-pack fles \u00e0 30 cl",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "6-pack blik \u00e0 33 cl",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Traditiegetrouw PILSENER 6-pack",
+    "standardized_name": "Bier",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Krat 24 flessen \u00e0 30 cl",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Appassimento Puglia IGP Fles 75 cl.",
+    "standardized_name": "Wijn",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Pinot Grigio\nPinot Grigio ros\u00e9\nFles 75 cl.",
+    "standardized_name": "Wijn",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Butterfly\nChardonnay\nMalbec\nPinot Grigio\nPink Pinot Grigio\nFles 75 cl.",
+    "standardized_name": "Wijn",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Shiraz Grenache Petit Verdot\nChardonnay Semillon\nPinot Grigio\nFles 75 cl.",
+    "standardized_name": "Wijn",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Mexx huissokken",
+    "standardized_name": "Huissokken",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Slazenger hoodie of joggingbroek",
+    "standardized_name": "Hoodies",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Falcon thermoshirt of -broek",
+    "standardized_name": "Thermoshirts",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Vodka OP=OP 1.5 LITER!",
+    "standardized_name": "Wodka",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Irish Cream OP=OP 1.5 LITER!",
+    "standardized_name": "Likeuren",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Coconut Rum OP=OP 1.5 LITER!",
+    "standardized_name": "Rum",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Vodka Blue 70 cl",
+    "standardized_name": "Wodka",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Founder's Reserve 70 cl",
+    "standardized_name": "Whisky",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Jenever Hele liter",
+    "standardized_name": "Jenever",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Likeur 70 cl",
+    "standardized_name": "Likeuren",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Bacardi Spiced Rum",
+    "standardized_name": "Rum",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Bacardi Rum Carta Blanca",
+    "standardized_name": "Rum",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Glen Talloch Whisky",
+    "standardized_name": "Whisky",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Villa Massa Limoncello 70 cl",
+    "standardized_name": "Limoncello",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Dujardin Vieux Hele liter",
+    "standardized_name": "Vieux",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Ballantine's Blended Scotch Whisky",
+    "standardized_name": "Whisky",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Disaronno Originale",
+    "standardized_name": "Likeuren",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Wijn",
+    "standardized_name": "Wijn",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Ginger Ale 0% Hele liter",
+    "standardized_name": "Frisdranken",
+    "category": "Drinken"
+  },
+  {
+    "original_name": "Zero 1,5 LITER",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Voordeelbox 5 LITER!",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Energy 50 cl",
+    "standardized_name": "Energiedranken",
+    "category": "Drinken"
+  },
+  {
+    "original_name": "Hele liter",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Bier Blik 33 cl",
+    "standardized_name": "Bier",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Black Label 1.75 LITER!",
+    "standardized_name": "Whisky",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "\u211621 Vodka 1.5 LITER!",
+    "standardized_name": "Wodka",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "The Original Irish Cream 1.5 LITER!",
+    "standardized_name": "Likeuren",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Bitter Lemon Hele liter",
+    "standardized_name": "Frisdranken",
+    "category": "Drinken"
+  },
+  {
+    "original_name": "2x33cl",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Lemon Zero Sugar",
+    "standardized_name": "Frisdranken",
+    "category": "Drinken"
+  },
+  {
+    "original_name": "geurstokjes Diverse geuren. Inhoud 60 ml. OP=OP",
+    "standardized_name": "Geurstokjes",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "douchegel Alle varianten. Flacon 250 ml.",
+    "standardized_name": "Douchegels",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "vochtig toiletpapier Alle varianten. Pak 42 stuks. OP=OP",
+    "standardized_name": "Vochtig toiletpapier",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "discreet Verband of inlegkruisjes. Pak 10 - 28 stuks.",
+    "standardized_name": "Incontinentiemateriaal",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "shampoo Classic of Menthol Fresh. Flacon 250 ml.",
+    "standardized_name": "Shampoos",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "wasverzachter Alle varianten. Flacon 55 wasbeurten.",
+    "standardized_name": "Wasverzachters",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "vaatwastabletten Ultimate of Ultimate Plus. Zak 10 of 13 stuks.",
+    "standardized_name": "Vaatwastabletten",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Max Power handafwas Original of lemon. Per flacon. OP=OP",
+    "standardized_name": "Afwasmiddelen",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Alle varianten. Ariel pods 30 wasbeurten, poeder 40 wasbeurten of vloeibaar wasmiddel 30 wasbeurten. OP=OP",
+    "standardized_name": "Wasmiddelen",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "kattenvoer Alle varianten. Kuip 85 gram.",
+    "standardized_name": "Kattenvoer",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Blauwe bessen 300 gram",
+    "standardized_name": "Blauwe bessen",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Hazelnoot roomvlaai",
+    "standardized_name": "Vlaaien",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Gesneden verspakket",
+    "standardized_name": "Groentepakketten",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Soupy verse erwtensoep 950 ML",
+    "standardized_name": "Soepen",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Duitse biefstuk Pak 2 stuks",
+    "standardized_name": "Biefstukken",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Al Jawhara medjoul dadels 1 KILO",
+    "standardized_name": "Dadels",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Noorse gerookte zalm Pak 150 gram",
+    "standardized_name": "Zalm",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Port Salut of mascarpone gorgonzola Per stuk 185 of 190 gram",
+    "standardized_name": "Kaas",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "Ladessa filet Americain naturel Kuip 130 gram.",
+    "standardized_name": "Filet americain",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Pinda's Gezouten of ongezouten. Kuip 275 gram.",
+    "standardized_name": "Pinda's",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Iced tea lemon, iced tea peach, seltzer raspberry, seltzer passionfruit of mixed classics spritz. Blik 25 cl.",
+    "standardized_name": "Ice tea",
+    "category": "Drinken"
+  },
+  {
+    "original_name": "Blended whisky Hele liter. OP=OP",
+    "standardized_name": "Whisky",
+    "category": "Alcohol"
+  },
+  {
+    "original_name": "Lang Lekker Vol en halfvol. Pak 1.5 liter.",
+    "standardized_name": "Melk",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "airfryer BBEK1138",
+    "standardized_name": "Airfryers",
+    "category": "Overige"
+  },
+  {
+    "original_name": "braadpan",
+    "standardized_name": "Braadpannen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "grillplaat",
+    "standardized_name": "Grillplaten",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Enrico glazen bewaarbus 311 ML",
+    "standardized_name": "Bewaarboxen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Enrico glazen bewaarbus 1040 ML",
+    "standardized_name": "Bewaarboxen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Enrico glazen bewaarbus 1760 ML",
+    "standardized_name": "Bewaarboxen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Pyrex Cook & Click glazen ovenschaal 800 ML",
+    "standardized_name": "Ovenschalen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Pyrex Cook & Click glazen ovenschaal 2 LITER",
+    "standardized_name": "Ovenschalen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Pyrex Cook & Click glazen ovenschaal 3.5 LITER",
+    "standardized_name": "Ovenschalen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Brabantia magnetron met grillfunctie BBEK1145DG Inhoud 20 liter",
+    "standardized_name": "Magnetrons",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Alpina multifunctionele schoonmaakborstel",
+    "standardized_name": "Schoonmaakborstels",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Nintendo Switch spel Keuze uit o.a. Paw Patrol on a roll, Dragons dawn of new riders, Gigantosaurus en Jumanji.",
+    "standardized_name": "Games",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Hello Kitty of Harry Potter knuffel Hoogte ca. 25 cm.",
+    "standardized_name": "Knuffels",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Goliath The Chuck Pinson puzzel Keuze uit diverse afbeeldingen.",
+    "standardized_name": "Puzzels",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Goliath The Chuck Pinson puzzel Keuze uit diverse afbeeldingen. 1000 Stukjes",
+    "standardized_name": "Puzzels",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Cluedo spel In diverse varianten.",
+    "standardized_name": "Spellen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Philips draadloze hoofdtelefoon TAH3209BK",
+    "standardized_name": "Hoofdtelefoons",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Philips draadloze Qi oplader DLP9210/03",
+    "standardized_name": "Opladers",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Trust Primo powerbank 24676",
+    "standardized_name": "Powerbanks",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Dunlop led fietsverlichting",
+    "standardized_name": "Fietsverlichting",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Grundig knoopcelbatterijen CR2032",
+    "standardized_name": "Batterijen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Energizer ledlamp Warm witlicht 2700k Normale fitting (E27), smalle fitting (E14) of spot (GU10) SMD led of filament led Diverse wattages/lumen",
+    "standardized_name": "Lampen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Bon Giorno kussenbeschermer 60 x 70 CM",
+    "standardized_name": "Kussenbeschermers",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Bon Giorno hoofdkussen 60 x 70 CM",
+    "standardized_name": "Hoofdkussens",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Philips LongLife batterijen AA of AAA. 50-PACK",
+    "standardized_name": "Batterijen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Ten Cate badmat In diverse kleuren. 50 x 70 CM",
+    "standardized_name": "Badmatten",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Ten Cate washand \u2022 100% katoen",
+    "standardized_name": "Washandjes",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Ten Cate baddoek \u2022 In diverse kleuren. Extra zware kwaliteit \u2022 100% katoen 60 x 110 cm",
+    "standardized_name": "Handdoeken",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Yu-La led kaars",
+    "standardized_name": "Kaarsen",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Aroma geurblokjes kadoset",
+    "standardized_name": "Huisparfums",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Grundig infrarood thermometer",
+    "standardized_name": "Thermometers",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Oral-B opzetborstels 4-PACK",
+    "standardized_name": "Opzetborstels",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Oral-B Vitality Pro elektrische tandenborstel",
+    "standardized_name": "Tandenborstels",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Alle soorten Actieprijzen vari\u00ebren van 5.79 - 18.99 Bijv. 3 flessen Robijn wasverzachter Morgenfris 780 ml",
+    "standardized_name": "Wasverzachters",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Honig mix of soep Alle soorten. M.u.v. families maaltijdpakketten",
+    "standardized_name": "Maaltijdmixen",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Klene suikervrij Alle zakken van 90-110 gram",
+    "standardized_name": "Drop",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Chio Oven Baked chips of sticks Alle zakken van 125 of 160 gram",
+    "standardized_name": "Chips",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Pringles Alle bussen van 40 gram",
+    "standardized_name": "Chips",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Pepsi Alle blikjes van 250 ml",
+    "standardized_name": "Frisdranken",
+    "category": "Drinken"
+  },
+  {
+    "original_name": "SuperCrunch Alle zakken van 750 gram",
+    "standardized_name": "Friet",
+    "category": "Diepvries"
+  },
+  {
+    "original_name": "XL heteluchtfriteuse FR-6956 4.5 liter, 8 bakprogramma's, PFAS-vrij",
+    "standardized_name": "Airfryers",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Dreft Quickwash of Power Spray Alle flessen van 1050 ml of spray's van 500 ml",
+    "standardized_name": "Afwasmiddelen",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Dove Alle soorten",
+    "standardized_name": "Verzorgingsproducten",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Nalys toiletpapier soft Pak met 32 rollen",
+    "standardized_name": "Toiletpapier",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Sun Pro Expert lemon Zak met 16 stuks",
+    "standardized_name": "Vaatwastabletten",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Felix Pouch of Vitakraft Liquid Snack Alle pakken met 12 stuks of 240 gram M.u.v. Felix original 12 stuks",
+    "standardized_name": "Kattenvoer",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Lenor geurparels of wasverzachter, Dreft vaatwastabletten of Ariel Pods of vloeibaar Alle pakken van 495 gram, 36 of 30 stuks, of flessen van 1350-2650 ml",
+    "standardized_name": "Wasmiddelen",
+    "category": "Huishouden & Verzorging"
+  },
+  {
+    "original_name": "Perssinaasappels Net van 2 kilo",
+    "standardized_name": "Sinaasappels",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Pok\u00e9bowl kip, tonijn of zalm Alle schalen van 280 gram",
+    "standardized_name": "Maaltijdsalades",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Cocktail-trostomaten Schaal van 500 gram",
+    "standardized_name": "Tomaten",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Blauwe bessen Schaal van 300 gram",
+    "standardized_name": "Blauwe bessen",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Soep verspakketten Alle soorten",
+    "standardized_name": "Groentepakketten",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Avocado Ready to eat Schaal met 2 stuks",
+    "standardized_name": "Avocado's",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Witte druiven pitloos Schaal van 500 gram",
+    "standardized_name": "Druiven",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Streek conference peren Schaal met 4 stuks",
+    "standardized_name": "Peren",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Morgana appel Zak van 1.5 kilo",
+    "standardized_name": "Appels",
+    "category": "AGF"
+  },
+  {
+    "original_name": "Zigeunergehaktschnitzel, boomstammetjes, gehakt cordonbleu of slavinken Alle schalen met 2 stuks",
+    "standardized_name": "Vleesproducten",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Filetlapjes Alle schalen van 375 gram",
+    "standardized_name": "Filetlapjes",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Italiaanse maaltijd Alle schalen van 450 gram",
+    "standardized_name": "Maaltijden",
+    "category": "Overige"
+  },
+  {
+    "original_name": "Verse zalmfilet Alle schalen van 500 gram",
+    "standardized_name": "Zalmfilets",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Alle soorten M.u.v. grootverpakkingen",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Kogelbiefstuk Alle soorten",
+    "standardized_name": "Biefstukken",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Kipfilet, achterham of snijworst Alle pakken van 200 gram",
+    "standardized_name": "Vleeswaren",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Mediterraneo focaccia Alle soorten",
+    "standardized_name": "Brood",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Carpaccio Pak van 123 gram Van de versafdeling",
+    "standardized_name": "Carpaccio",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "Eru Alle soorten van 200 gram",
+    "standardized_name": "Smeerkaas",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "Healthy People Alle soorten",
+    "standardized_name": "Sappen",
+    "category": "Drinken"
+  },
+  {
+    "original_name": "Jan poffertjes of kruidnoot poffertjes Alle pakken met 36 of 38 stuks",
+    "standardized_name": "Poffertjes",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Unox rookworst Alle pakken van 250-285 gram",
+    "standardized_name": "Rookworst",
+    "category": "Vlees, Vis & Vega"
+  },
+  {
+    "original_name": "VitaLu Alle soorten",
+    "standardized_name": "Crackers",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "1-kops thee Alle pakken met 15 of 20 stuks",
+    "standardized_name": "Thee",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "honing Alle soorten",
+    "standardized_name": "Honing",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Alle soorten",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "koffiebonen Alle zakken van 500 gram",
+    "standardized_name": "Koffiebonen",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "koffiecapsules Alle soorten",
+    "standardized_name": "Koffiecups",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "oploskoffie of Senseo koffiepads Alle pakken met 8 of 10 stuks",
+    "standardized_name": "Oploskoffie",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Alle pakken van 500 gram",
+    "standardized_name": "Nonsense",
+    "category": "Nonsense"
+  },
+  {
+    "original_name": "Pickwick 1-kops thee Alle pakken met 15 of 20 stuks",
+    "standardized_name": "Thee",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Melvita honing Alle soorten",
+    "standardized_name": "Honing",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Belvita Alle soorten",
+    "standardized_name": "Koek",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Caf\u00e9 Nova koffiebonen Alle zakken van 500 gram",
+    "standardized_name": "Koffiebonen",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Barzini koffiecapsules Alle soorten",
+    "standardized_name": "Koffiecups",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Douwe Egberts oploskoffie of Senseo koffiepads Alle pakken met 8 of 10 stuks",
+    "standardized_name": "Oploskoffie",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Kanis en Gunnink Alle pakken van 500 gram",
+    "standardized_name": "Koffie",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Boerenbrood Volkoren, bruin of wit",
+    "standardized_name": "Brood",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Cinnamon roll Pak met 2 stuks",
+    "standardized_name": "Koffiebroodjes",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Donuts gesuikerd of mix Pak met 5 stuks",
+    "standardized_name": "Donuts",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Sint tompouce Doos met 4 stuks",
+    "standardized_name": "Tompoucen",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Sint mini gebakjes Pak met 4 stuks",
+    "standardized_name": "Gebak",
+    "category": "Brood & Ontbijt"
+  },
+  {
+    "original_name": "Arla biologisch Alle pakken van 1 liter",
+    "standardized_name": "Zuivelproducten",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "HiPRO Alle soorten",
+    "standardized_name": "Zuiveldranken",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "Blue Band goede start, halvarine of finesse Alle kuipen van 500 gram of bekers van 250 ml",
+    "standardized_name": "Margarines",
+    "category": "Zuivel & Eieren"
+  },
+  {
+    "original_name": "Heinz Sandwichspread Alle potten van 300 gram",
+    "standardized_name": "Sandwichspread",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Bifi Alle pakken van 3 stuks",
+    "standardized_name": "Vleessnacks",
+    "category": "Snoep & Snacks"
+  },
+  {
+    "original_name": "Verstegen voorraadpotten Alle soorten",
+    "standardized_name": "Kruiden",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Heinz tomato frito Alle soorten",
+    "standardized_name": "Tomatensaus",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Wagner Big City of Sensation Alle soorten",
+    "standardized_name": "Pizza's",
+    "category": "Diepvries"
+  },
+  {
+    "original_name": "John West tonijn of makreel Alle soorten",
+    "standardized_name": "Visconserven",
+    "category": "Voorraadkast"
+  },
+  {
+    "original_name": "Unox good noodles cup Alle bekers van 48 - 71 gram",
+    "standardized_name": "Noedels",
+    "category": "Voorraadkast"
+  }
+]

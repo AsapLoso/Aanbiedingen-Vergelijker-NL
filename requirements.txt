@@ -1,0 +1,19 @@
+# Boodschappen — Dependencies
+# Install via: conda install --file requirements.txt
+# Or for non-conda packages: pip install -r requirements.txt
+
+# Scraping
+selenium
+beautifulsoup4
+lxml
+
+# LLM Framework
+llama-cpp-python
+instructor
+pydantic
+
+# Solver (future)
+pulp
+
+# Web app (future)
+flask

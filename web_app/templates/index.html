@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proprietary Deal Grid | Boodschappen Solver</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+            --accent-color: #58a6ff;
+            --text-color: #c9d1d9;
+            --header-bg: rgba(22, 27, 34, 0.8);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background: var(--header-bg);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 20px;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .grid-container {
+            max-width: 1400px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .store-headers {
+            display: grid;
+            grid-template-columns: 40px 250px repeat(5, 1fr);
+            gap: 10px;
+            padding: 10px;
+            background: var(--card-bg);
+            border-radius: 8px 8px 0 0;
+            border-bottom: 2px solid var(--border-color);
+            font-weight: 800;
+            text-align: center;
+        }
+
+        .category-bar {
+            background: #21262d;
+            padding: 15px;
+            margin-top: 5px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 4px;
+            font-weight: 600;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .category-content {
+            display: none;
+            padding: 5px 0;
+        }
+
+        .category-content.active {
+            display: block;
+        }
+
+        .product-row {
+            display: grid;
+            grid-template-columns: 40px 250px repeat(5, 1fr);
+            gap: 10px;
+            padding: 12px 10px;
+            border-bottom: 1px solid var(--border-color);
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .product-row:hover {
+            background: rgba(88, 166, 255, 0.05);
+        }
+
+        .store-cell {
+            text-align: center;
+            padding: 8px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .store-cell.has-deal {
+            background: rgba(35, 134, 54, 0.2);
+            border: 1px solid #238636;
+        }
+
+        .price {
+            font-weight: 800;
+            font-size: 1.1rem;
+            display: block;
+        }
+
+        .deal-tag {
+            font-size: 0.75rem;
+            opacity: 0.8;
+        }
+
+        .audit-view {
+            display: none;
+            grid-column: 1 / -1;
+            background: #000;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border: 1px dashed var(--border-color);
+            overflow: auto;
+        }
+
+        /* Checkbox styling */
+        input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .chevron {
+            transition: transform 0.3s;
+        }
+
+        .active .chevron {
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Boodschappen Solver Grid</h1>
+    <div id="stats">Enriching 5,000+ Deals...</div>
+</header>
+
+<div class="grid-container">
+    <div class="store-headers" id="grid-headers">
+        <div></div> <!-- checkbox space -->
+        <div style="text-align: left;">Product</div>
+        <!-- Supermarket names filled by JS -->
+    </div>
+
+    <div id="grid-body">
+        <!-- Categories and Rows filled by JS -->
+    </div>
+</div>
+
+<script>
+    // Selection state (temporary JS variable as requested)
+    const selectedItems = new Set();
+
+    async function init() {
+        const res = await fetch('/api/grid');
+        const data = await res.json();
+        renderGrid(data);
+    }
+
+    function renderGrid(data) {
+        const body = document.getElementById('grid-body');
+        const headers = document.getElementById('grid-headers');
+        
+        // Render headers
+        data.stores.forEach(s => {
+            const div = document.createElement('div');
+            div.textContent = s;
+            headers.appendChild(div);
+        });
+
+        // Render categories
+        for (const [catName, products] of Object.entries(data.grid)) {
+            const catContainer = document.createElement('div');
+            
+            const catBar = document.createElement('div');
+            catBar.className = 'category-bar';
+            catBar.innerHTML = `<span>${catName} (${Object.keys(products).length})</span> <span class="chevron">▶</span>`;
+            
+            const catContent = document.createElement('div');
+            catContent.className = 'category-content';
+            
+            catBar.onclick = () => {
+                catContent.classList.toggle('active');
+                catBar.classList.toggle('active');
+            };
+
+            for (const [prodName, stores] of Object.entries(products)) {
+                const row = document.createElement('div');
+                row.className = 'product-row';
+                
+                // 1. Selector
+                const check = document.createElement('input');
+                check.type = 'checkbox';
+                check.onchange = (e) => {
+                    if(e.target.checked) selectedItems.add(prodName);
+                    else selectedItems.delete(prodName);
+                    console.log("Current Selection:", Array.from(selectedItems));
+                };
+                row.appendChild(check);
+
+                // 2. Name
+                const nameDiv = document.createElement('div');
+                nameDiv.innerHTML = `<strong>${prodName}</strong><br><small style="opacity:0.6">${stores._metadata.variant || ''}</small>`;
+                row.appendChild(nameDiv);
+
+                // 3. Store Cells
+                data.stores.forEach(s => {
+                    const cell = document.createElement('div');
+                    cell.className = 'store-cell';
+                    const deal = stores[s];
+                    
+                    if (deal) {
+                        cell.classList.add('has-deal');
+                        cell.innerHTML = `
+                            <span class="price">€${deal.price.toFixed(2)}</span>
+                            <span class="deal-tag">${deal.deal_tag || ''}</span>
+                        `;
+                        // Audit logic: click to toggle HTML view
+                        cell.onclick = () => toggleAudit(row, deal.raw_html);
+                    }
+                    row.appendChild(cell);
+                });
+
+                catContent.appendChild(row);
+            }
+
+            catContainer.appendChild(catBar);
+            catContainer.appendChild(catContent);
+            body.appendChild(catContainer);
+        }
+    }
+
+    function toggleAudit(row, html) {
+        let audit = row.nextElementSibling;
+        if (audit && audit.classList.contains('audit-view')) {
+            audit.style.display = audit.style.display === 'block' ? 'none' : 'block';
+        } else {
+            audit = document.createElement('div');
+            audit.className = 'audit-view';
+            audit.style.display = 'block';
+            audit.innerHTML = `<h4>Raw Supermarket Source</h4><div style="background:#fff; color:#000; padding:10px;">${html || 'No HTML saved yet.'}</div>`;
+            row.parentNode.insertBefore(audit, row.nextSibling);
+        }
+    }
+
+    init();
+</script>
+
+</body>
+</html>
