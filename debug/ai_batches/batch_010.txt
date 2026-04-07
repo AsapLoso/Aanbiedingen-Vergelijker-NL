@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Pinot Grigio\nPinot Grigio ros\u00e9\nFles 75 cl.",
+    "brand": "Corte Fresca"
+  },
+  {
+    "product_name": "Butterfly\nChardonnay\nMalbec\nPinot Grigio\nPink Pinot Grigio\nFles 75 cl.",
+    "brand": "Barefoot"
+  },
+  {
+    "product_name": "Shiraz Grenache Petit Verdot\nChardonnay Semillon\nPinot Grigio\nFles 75 cl.",
+    "brand": "Stoney Creek"
+  },
+  {
+    "product_name": "Mexx huissokken",
+    "brand": "Mexx"
+  },
+  {
+    "product_name": "Slazenger hoodie of joggingbroek",
+    "brand": "Slazenger"
+  },
+  {
+    "product_name": "Falcon thermoshirt of -broek",
+    "brand": "Falcon"
+  },
+  {
+    "product_name": "Vodka OP=OP 1.5 LITER!",
+    "brand": "Smirnoff"
+  },
+  {
+    "product_name": "Irish Cream OP=OP 1.5 LITER!",
+    "brand": "Baileys"
+  },
+  {
+    "product_name": "Coconut Rum OP=OP 1.5 LITER!",
+    "brand": "Malibu"
+  },
+  {
+    "product_name": "Vodka Blue 70 cl",
+    "brand": "Absolut"
+  },
+  {
+    "product_name": "Founder's Reserve 70 cl",
+    "brand": "The Glenlivet"
+  },
+  {
+    "product_name": "Jenever Hele liter",
+    "brand": "Hartevelt"
+  },
+  {
+    "product_name": "Likeur 70 cl",
+    "brand": "Kahl\u00faa"
+  },
+  {
+    "product_name": "Bacardi Spiced Rum",
+    "brand": "Bacardi"
+  },
+  {
+    "product_name": "Bacardi Rum Carta Blanca",
+    "brand": "Bacardi"
+  },
+  {
+    "product_name": "Glen Talloch Whisky",
+    "brand": "Glen Talloch"
+  },
+  {
+    "product_name": "Villa Massa Limoncello 70 cl",
+    "brand": "Villa Massa"
+  },
+  {
+    "product_name": "Dujardin Vieux Hele liter",
+    "brand": "Dujardin"
+  },
+  {
+    "product_name": "Ballantine's Blended Scotch Whisky",
+    "brand": "Ballantine's"
+  },
+  {
+    "product_name": "Disaronno Originale",
+    "brand": "Disaronno"
+  },
+  {
+    "product_name": "Wijn",
+    "brand": "Marqu\u00e9s Mej\u00eda"
+  },
+  {
+    "product_name": "Wijn",
+    "brand": "Sauvignon"
+  },
+  {
+    "product_name": "Wijn",
+    "brand": "1882 Puglia Appassimento"
+  },
+  {
+    "product_name": "Ginger Ale 0% Hele liter",
+    "brand": "Royal Club"
+  },
+  {
+    "product_name": "Zero 1,5 LITER",
+    "brand": "Coca-Cola"
+  },
+  {
+    "product_name": "Voordeelbox 5 LITER!",
+    "brand": "Spa Reine"
+  },
+  {
+    "product_name": "Energy 50 cl",
+    "brand": "Monster"
+  },
+  {
+    "product_name": "Hele liter",
+    "brand": "7-UP Regular"
+  },
+  {
+    "product_name": "Bier Blik 33 cl",
+    "brand": "Heineken"
+  },
+  {
+    "product_name": "Black Label 1.75 LITER!",
+    "brand": "Johnnie Walker"
+  },
+  {
+    "product_name": "\u211621 Vodka 1.5 LITER!",
+    "brand": "Smirnoff"
+  },
+  {
+    "product_name": "The Original Irish Cream 1.5 LITER!",
+    "brand": "Baileys"
+  },
+  {
+    "product_name": "Bitter Lemon Hele liter",
+    "brand": "Royal Club"
+  },
+  {
+    "product_name": "2x33cl",
+    "brand": "Or. Foots"
+  },
+  {
+    "product_name": "Lemon Zero Sugar",
+    "brand": "Fanta"
+  },
+  {
+    "product_name": "geurstokjes Diverse geuren. Inhoud 60 ml. OP=OP",
+    "brand": "Bolsius True Scents"
+  },
+  {
+    "product_name": "douchegel Alle varianten. Flacon 250 ml.",
+    "brand": "Axe"
+  },
+  {
+    "product_name": "vochtig toiletpapier Alle varianten. Pak 42 stuks. OP=OP",
+    "brand": "Edet"
+  },
+  {
+    "product_name": "discreet Verband of inlegkruisjes. Pak 10 - 28 stuks.",
+    "brand": "Tena"
+  },
+  {
+    "product_name": "shampoo Classic of Menthol Fresh. Flacon 250 ml.",
+    "brand": "Head & Shoulders"
+  },
+  {
+    "product_name": "wasverzachter Alle varianten. Flacon 55 wasbeurten.",
+    "brand": "Lenor"
+  },
+  {
+    "product_name": "vaatwastabletten Ultimate of Ultimate Plus. Zak 10 of 13 stuks.",
+    "brand": "Finish"
+  },
+  {
+    "product_name": "Max Power handafwas Original of lemon. Per flacon. OP=OP",
+    "brand": "Dreft"
+  },
+  {
+    "product_name": "Alle varianten. Ariel pods 30 wasbeurten, poeder 40 wasbeurten of vloeibaar wasmiddel 30 wasbeurten. OP=OP",
+    "brand": "Ariel"
+  },
+  {
+    "product_name": "kattenvoer Alle varianten. Kuip 85 gram.",
+    "brand": "Sheba"
+  },
+  {
+    "product_name": "Blauwe bessen 300 gram",
+    "brand": "None"
+  },
+  {
+    "product_name": "Hazelnoot roomvlaai",
+    "brand": "None"
+  },
+  {
+    "product_name": "Gesneden verspakket",
+    "brand": "None"
+  },
+  {
+    "product_name": "Soupy verse erwtensoep 950 ML",
+    "brand": "Soupy"
+  },
+  {
+    "product_name": "Duitse biefstuk Pak 2 stuks",
+    "brand": "Vleeschmeesters"
+  }
+]

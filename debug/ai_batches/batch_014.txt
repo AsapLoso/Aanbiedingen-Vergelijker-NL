@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "1.75 LITER",
+    "brand": "Licor 43"
+  },
+  {
+    "product_name": "1.5 LITER",
+    "brand": "Jack Daniel's"
+  },
+  {
+    "product_name": "Black Label 1.75 LITER",
+    "brand": "Johnnie Walker"
+  },
+  {
+    "product_name": "Eastlands wollen dekbed all-year 140 x 220 cm",
+    "brand": "Eastlands"
+  },
+  {
+    "product_name": "240 x 220 cm",
+    "brand": "Eastlands"
+  },
+  {
+    "product_name": "Fleece rib dekbed overtrek 140 x 220 cm",
+    "brand": "Fleece rib"
+  },
+  {
+    "product_name": "200 x 200 cm",
+    "brand": "Fleece rib"
+  },
+  {
+    "product_name": "200 x 240 cm",
+    "brand": "Fleece rib"
+  },
+  {
+    "product_name": "Diverse spellen",
+    "brand": "Diverse"
+  },
+  {
+    "product_name": "Ravensburger comic puzzel Diverse soorten, 1000 stukjes",
+    "brand": "Ravensburger"
+  },
+  {
+    "product_name": "Kookbijbel Diverse titels",
+    "brand": "Diverse"
+  },
+  {
+    "product_name": "Playmobil Dino Rise",
+    "brand": "Playmobil"
+  },
+  {
+    "product_name": "Playmobil City Life My Figures",
+    "brand": "Playmobil"
+  },
+  {
+    "product_name": "Bolsius 6-uurs theelichten Alle dozen van 360 stuks",
+    "brand": "Bolsius"
+  },
+  {
+    "product_name": "Bord kerstboom deco \u00d8 26,5 cm",
+    "brand": "None"
+  },
+  {
+    "product_name": "Diepbord of schaaltje kerstboom deco Bord \u00d8 21 cm of schaaltje \u00d8 14 cm",
+    "brand": "None"
+  },
+  {
+    "product_name": "Krans of haard 35 cm 120 LED met timer of LED roest look 124,5 x b9x h23 cm",
+    "brand": "None"
+  },
+  {
+    "product_name": "Lichtkrans 30 cm 96 goud LED, met timer",
+    "brand": "None"
+  },
+  {
+    "product_name": "Philips batterijen voordeeldoos 48xAA en 24xAAA Power alkaline",
+    "brand": "Philips"
+  },
+  {
+    "product_name": "Zwarte decoratieboom 120 cm met 80 LED's Spiraalvormige kerstboom 140 cm met 300 LED's Staande sterren set met 2 stuks 95 - 125 cm - 180 LED's",
+    "brand": "None"
+  },
+  {
+    "product_name": "Kunstkerstboom met versiering D 50 x H 90 cm",
+    "brand": "None"
+  },
+  {
+    "product_name": "minicrackers, Tuc, Liga",
+    "brand": "Cote d'Or, LU, Philadelphia, Milka of Liga"
+  },
+  {
+    "product_name": "Decemberkalenders",
+    "brand": "December"
+  },
+  {
+    "product_name": "Doritos, Lay's, Quaker Cruesli",
+    "brand": "Lay's, Doritos, Quaker Cruesli of Duyvis"
+  },
+  {
+    "product_name": "Pickwick Premium Herbal Tea",
+    "brand": "Pickwick"
+  },
+  {
+    "product_name": "Brand speciaalbier Diverse soorten Per Krat",
+    "brand": "Brand"
+  },
+  {
+    "product_name": "Brand Dubbel Bock 6x 30cl",
+    "brand": "Brand"
+  },
+  {
+    "product_name": "Brand IPA 6x 300ML",
+    "brand": "Brand"
+  },
+  {
+    "product_name": "Wereld-gerechten Alle soorten M.u.v. familie-verpakking",
+    "brand": "Knorr"
+  },
+  {
+    "product_name": "salade Alle kuipjes van 175 gram",
+    "brand": "Johma"
+  },
+  {
+    "product_name": "Alle flessen van 1.5 liter",
+    "brand": "Lipton"
+  },
+  {
+    "product_name": "spekreepjes of dobbelsteentjes gerookt Alle pakken van 200 of 250 gram",
+    "brand": "Slagers Kwaliteit"
+  },
+  {
+    "product_name": "kaasplakken Alle soorten",
+    "brand": "Milner"
+  },
+  {
+    "product_name": "Boer'n yoghurt, vla of stevige trek Alle soorten",
+    "brand": "Zuivelhoeve"
+  },
+  {
+    "product_name": "Alle soorten Actieprijzen vari\u00ebren van 2.55 - 4.11 Bijv. 2 zakken Parrano rasp originale M.u.v. bus",
+    "brand": "Parrano"
+  },
+  {
+    "product_name": "Wok- of roerbakgroenten 2 zakken van 400 gram",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Food by four runder-gehaktballen Alle pakken van 300 gram",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "cheez dippers naturel Pak met 8 stuks",
+    "brand": "La Vache qui rit"
+  },
+  {
+    "product_name": "Kips slagersleverworst, roompat\u00e9 of kleintje smeerleverworst Alle stukken van 230 gram, zakjes met 6 stuks of kuipje van 125 gram",
+    "brand": "Kips"
+  },
+  {
+    "product_name": "Almhof yoghurt Alle bekers van 450-500 gram",
+    "brand": "Almhof"
+  },
+  {
+    "product_name": "Heks'nkaas Alle kuipjes van 150-200 gram Bijv. 2 kuipjes van 150 gram",
+    "brand": "Heks'nkaas"
+  },
+  {
+    "product_name": "Alle flessen van 1.5 liter",
+    "brand": "Fanta, Sprite of Fernandes"
+  },
+  {
+    "product_name": "2 pakken van 1 liter",
+    "brand": "Chocomel"
+  },
+  {
+    "product_name": "ALLE CHOCOMEL",
+    "brand": "Chocomel"
+  },
+  {
+    "product_name": "koffiezetapparaat",
+    "brand": "Tefal"
+  },
+  {
+    "product_name": "classic stoffer en blik",
+    "brand": "Leifheit"
+  },
+  {
+    "product_name": "easy fry max",
+    "brand": "Tefal"
+  },
+  {
+    "product_name": "Alle verpakkingen \u00e0 427-465 ml",
+    "brand": "Ben & Jerry's"
+  },
+  {
+    "product_name": "Alle verpakkingen \u00e0 200-250 gram",
+    "brand": "Lurpak"
+  },
+  {
+    "product_name": "Goudse kaas rasp Alle zakken \u00e0 300 gram",
+    "brand": "Jumbo"
+  }
+]

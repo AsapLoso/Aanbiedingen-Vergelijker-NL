@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Bezorgbundel",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Platinum Miracle",
+    "brand": "Dreft"
+  },
+  {
+    "product_name": "Kip kerrie-, oude kaas- of kip bamba-salade 250 g",
+    "brand": "DAYLICIOUS"
+  },
+  {
+    "product_name": "Witlof 500 G",
+    "brand": "Witlof"
+  },
+  {
+    "product_name": "Extra vezelrijk volkoren-brood Heel",
+    "brand": "Extra"
+  },
+  {
+    "product_name": "Scharrel-kipdijfilet 800 g",
+    "brand": "Scharrel-kipdijfilet"
+  },
+  {
+    "product_name": "Volle choco-lademelk 1 L",
+    "brand": "MILSANI"
+  },
+  {
+    "product_name": "Premium houten puzzel Per stuk",
+    "brand": "Premium"
+  },
+  {
+    "product_name": "Bananen",
+    "brand": "Bananen"
+  },
+  {
+    "product_name": "Gele kiwi's 500 G",
+    "brand": "Gele kiwi's"
+  },
+  {
+    "product_name": "Granaatappel",
+    "brand": "Granaatappel"
+  },
+  {
+    "product_name": "Citroenen 500 G",
+    "brand": "Citroenen"
+  },
+  {
+    "product_name": "Fram-bozen 125 G",
+    "brand": "Fram-bozen"
+  },
+  {
+    "product_name": "Grape-fruits 3-PACK",
+    "brand": "Grape-fruits"
+  },
+  {
+    "product_name": "Snacktomaten",
+    "brand": "Snacktomaten"
+  },
+  {
+    "product_name": "Eetrijpe avocado's 2-PACK",
+    "brand": "Eetrijpe avocado's"
+  },
+  {
+    "product_name": "Kakifruit 1 KG",
+    "brand": "Kakifruit"
+  },
+  {
+    "product_name": "Spruiten 350 G",
+    "brand": "DAYLICIOUS"
+  },
+  {
+    "product_name": "Extra vezelrijk volkorenbrood",
+    "brand": "EXTRA"
+  },
+  {
+    "product_name": "Douchegel 400 ml",
+    "brand": "AXE"
+  },
+  {
+    "product_name": "Shampoo en shower-gel 2 in 1 300 ml",
+    "brand": "LACURA"
+  },
+  {
+    "product_name": "Red Bull 250 ml",
+    "brand": "Red Bull"
+  },
+  {
+    "product_name": "Regular 250 ml",
+    "brand": "GOLDEN POWER"
+  },
+  {
+    "product_name": "Light margarine kuip 600 g",
+    "brand": "BECEL"
+  },
+  {
+    "product_name": "Bewust light kuip 500 g",
+    "brand": "HELLA"
+  },
+  {
+    "product_name": "Krokante hamburgers Inhoud: 2 stuks, 200-260 g",
+    "brand": "Krokante"
+  },
+  {
+    "product_name": "Ribkarbonade 560 g.",
+    "brand": "Ribkarbonade"
+  },
+  {
+    "product_name": "Argentijnse steaks Inhoud: 2 stuks, 250 g",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Gehaktschnitzels Inhoud: 2 stuks, 400 g",
+    "brand": "Gehaktschnitzels"
+  },
+  {
+    "product_name": "Scharrel-kipdijfilet 800 g.",
+    "brand": "Scharrel-"
+  },
+  {
+    "product_name": "Tempeh blokjes 180 g",
+    "brand": "MY VAY"
+  },
+  {
+    "product_name": "Filet americain 175 g",
+    "brand": "Filet americain"
+  },
+  {
+    "product_name": "Spekreepjes",
+    "brand": "Spekreepjes"
+  },
+  {
+    "product_name": "Cranberry- of roompat\u00e9 150 g",
+    "brand": "Beter Leven"
+  },
+  {
+    "product_name": "Kipvleugels 250 g",
+    "brand": "Beter Leven"
+  },
+  {
+    "product_name": "Biologische gevulde pasta 250 g",
+    "brand": "BIO"
+  },
+  {
+    "product_name": "Verse roomkaas 100 g",
+    "brand": "MONCHOU"
+  },
+  {
+    "product_name": "Aardappelschotel 450 g",
+    "brand": "Aviko"
+  },
+  {
+    "product_name": "Magnum ijs 4-6 stuks",
+    "brand": "OLA"
+  },
+  {
+    "product_name": "Gyoza Inhoud: 12 stuks, 240 g",
+    "brand": "ASIA GREEN GARDEN"
+  },
+  {
+    "product_name": "Kaas-snackmix 500 g",
+    "brand": "ALPEN SCHMAUS"
+  },
+  {
+    "product_name": "Dadelsuiker 100 g",
+    "brand": "BIO"
+  },
+  {
+    "product_name": "Heerlijck Banket Kano's OP=OP. Inhoud: 14 stuks, 650 g",
+    "brand": "Kano's"
+  },
+  {
+    "product_name": "Goudse kaasplakken 48+ 200 g.",
+    "brand": "MOLENLAND"
+  },
+  {
+    "product_name": "8-pack mini's ontbijtgranen 230 g",
+    "brand": "GOLDEN BRIDGE"
+  },
+  {
+    "product_name": "Volle choco-lademelk 1 l.",
+    "brand": "MILSANI"
+  },
+  {
+    "product_name": "24-pack energydrink 24x25 cl.",
+    "brand": "GOLDEN POWER"
+  },
+  {
+    "product_name": "Grande R\u00e9serve, Frankrijk Grenache Syrah Mourv\u00e8dre of Chardonnay. 0.75 l.",
+    "brand": "La Coterie"
+  },
+  {
+    "product_name": "12-pack cola 12x33 cl.",
+    "brand": "River"
+  },
+  {
+    "product_name": "Extra strong 10% 0.5 l.",
+    "brand": "SCHULTENBR\u00c4U"
+  }
+]

@@ -22,45 +22,37 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-deprecated/
 # Environment
 venv/
-ENV/
+.venv/
 env/
 .env
-.venv
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Databases and Data
+# Databases & Caches
 *.db
 *.sqlite3
-data/raw/
-data/db/
+llm_cache.json
+
+# Data & Scrapes
+data/
 scripts/ai_batches/
 folders/
 
-# Large AI Models
-LLM/*.gguf
+# AI Models (Bulletproof recursive ignore)
+**/*.gguf
 LLM/models/
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Jupyter Notebook
-.ipynb_checkpoints
+# Junk & Deprecated
+deprecated/
+debug_view.html
+*.pdf
+*.jpg
+*.png
+logs/
+temp/
+tmp/
 
 # IDEs
 .vscode/
@@ -74,10 +66,11 @@ cover/
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Project-specific
-debug_view.html
-*.png
-logs/
-temp/
-tmp/
+# Git Locks
+index.lock
+
+# Allow project workflows
+!.agents/
+!.agents/workflows/

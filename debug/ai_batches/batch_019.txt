@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Bock-worsten 6 stuks, 540 g.",
+    "brand": "LANDBECK"
+  },
+  {
+    "product_name": "Spaanse extra olijfolie 3 LITER",
+    "brand": "TESDROS DEL SUR"
+  },
+  {
+    "product_name": "Jus 18-29 g.",
+    "brand": "Maggi"
+  },
+  {
+    "product_name": "Rookworst pittig of kip 275 g.",
+    "brand": "Unox"
+  },
+  {
+    "product_name": "2-laags keukenpapier 4 rollen.",
+    "brand": "SOLO"
+  },
+  {
+    "product_name": "Zakdoekjes en tissues 8 pakjes/48-72 stuks.",
+    "brand": "KLEENEX"
+  },
+  {
+    "product_name": "48-pack kattenvoer in saus",
+    "brand": "Cachet"
+  },
+  {
+    "product_name": "Tandpasta 1-2-3 fresh mint 75 ml",
+    "brand": "Oral-B"
+  },
+  {
+    "product_name": "Hondenkoekjes 1.3 kg",
+    "brand": "Romeo"
+  },
+  {
+    "product_name": "BB cream 30 ml",
+    "brand": "Lacura"
+  },
+  {
+    "product_name": "Wild roots hondensnack 150 g",
+    "brand": "Romeo"
+  },
+  {
+    "product_name": "Garnalenkroketjes 240 g",
+    "brand": "Gourmet"
+  },
+  {
+    "product_name": "Bladerdeeghapjes",
+    "brand": "Gourmet"
+  },
+  {
+    "product_name": "Spicy kip- of oude kaas bitterballen 300 g",
+    "brand": "Gourmet"
+  },
+  {
+    "product_name": "Mini-loempia's eend & hoisin 216 g",
+    "brand": "Gourmet"
+  },
+  {
+    "product_name": "Toast Cups naturel, krokant fijn gekruid of ovaal sesam 100-150 g",
+    "brand": "Sun Snacks"
+  },
+  {
+    "product_name": "2-pack focaccia's",
+    "brand": "Mama Mancini"
+  },
+  {
+    "product_name": "Stokbrood",
+    "brand": "Stokbrood"
+  },
+  {
+    "product_name": "Gevulde brie bieslook 180 g",
+    "brand": "Gevulde"
+  },
+  {
+    "product_name": "Engelse cheddarkaas 200 g",
+    "brand": "Gourmet"
+  },
+  {
+    "product_name": "Roomkaas 90 g",
+    "brand": "Gourmet"
+  },
+  {
+    "product_name": "Porto Lagarada, 10 jaar oud, Portugal 0.75 l",
+    "brand": "Porto Lagarada"
+  },
+  {
+    "product_name": "Gran Livenza Cava Brut piccolo, Spanje 0.2 l",
+    "brand": "Gran Livenza"
+  },
+  {
+    "product_name": "Craftbier Neipa of IPA. 33 cl.",
+    "brand": "Schultenbrau"
+  },
+  {
+    "product_name": "Craftbier Naipa, juicy blond of tropical tripel. 33 cl.",
+    "brand": "Schultenbrau"
+  },
+  {
+    "product_name": "Borrelblokjes 48+ belegen of oud 175 g.",
+    "brand": "Borrelblokjes"
+  },
+  {
+    "product_name": "Culinaire saus 200 ml",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Pyro fountain box",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "Pyro partyset",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "Bombommetjes",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "Mix it up",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "Knettersticks",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "Knetter king",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "Vuurwerk-meter",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "Knetterrotjes",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "Bengaalse sterren",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "Knetterkogels",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "Vuurwerkbril",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "Aansteeklonten",
+    "brand": "Vuurwerk"
+  },
+  {
+    "product_name": "ALDI Sint Special",
+    "brand": "ALDI"
+  },
+  {
+    "product_name": "TANDIL Geurparels Pink blossom of blue freshness 15 wasbeurten",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "TANDIL Wascapsules Kleur of wit. 20 wasbeurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "TANDIL Compact wasmiddel wit 28 was- beurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "TANDIL Vloeibaar wasmiddel wit 20 was- beurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "TANDIL Vloeibaar wasmiddel kleur 20 was- beurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "TANDIL Vloeibaar wasmiddel zwart 42 was- beurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "TANDIL Wasmiddel wol & fijn 33 was- beurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "TANDIL Wasverzachter Aardbei & magnolia of nectar & blossom. 33 wasbeurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "TANDIL Compact wasmiddel kleur 28 was- beurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "TANDIL Vloeibaar wasmiddel Kleur of wit. 40 wasbeurten.",
+    "brand": "TANDIL"
+  }
+]

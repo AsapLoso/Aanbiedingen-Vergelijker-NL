@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Slimme verlichte kerstboom 3m 600 RGB IC LEDS",
+    "brand": "hombli"
+  },
+  {
+    "product_name": "AH Mandarijnen 1 kilo en AH Biologisch mandarijnen 750 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle AH Kleinverpakkingen groentegemak",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle AH 4-persoons gesneden verspakketten",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Elstar appels of conference peren Los, per kilo",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Krieltjes vastkokend 1 kilo",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle Pink Lady appels Bijv. schaal 4 stuks",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Biologisch pompoen of flespompoen Los, per 500 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Snoepgroente tomaat 500 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Kaki fruit Los 2 stuks",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Frambozen 125 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Blauwe bessen",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Biologische bananen Los",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Bakkersbrood Les Pains heel",
+    "brand": "AH Bakkersbrood"
+  },
+  {
+    "product_name": "Roomboter appelflappen",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Speculaas en kruidnoten van de bakkerij Bijv. kruidnoten 2 zakken \u00e0 350 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Biologisch bakkersbrood Batard volkoren heel",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Tijgerbrood bruin heel",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Kip kerrie-, oude kaas- of kip bamba-salade 250 g.",
+    "brand": "DAYLICIOUS"
+  },
+  {
+    "product_name": "Witlof 500 G",
+    "brand": "ALDI"
+  },
+  {
+    "product_name": "Scharrel-kipdijfilet 800 g.",
+    "brand": "ALDI"
+  },
+  {
+    "product_name": "Volle choco-lademelk 1 L.",
+    "brand": "MILSANI"
+  },
+  {
+    "product_name": "Vaatwas-tabletten all-in-1 40 tabs. Per stuk 2.25.",
+    "brand": "UNA"
+  },
+  {
+    "product_name": "Extra vezelrijk volkoren-brood Heel.",
+    "brand": "ALDI"
+  },
+  {
+    "product_name": "Premium houten puzzel Per stuk.",
+    "brand": "ALDI"
+  },
+  {
+    "product_name": "Biologische gevulde pasta 250 g.",
+    "brand": "BIO"
+  },
+  {
+    "product_name": "Verse roomkaas 100 g.",
+    "brand": "MONCHOU"
+  },
+  {
+    "product_name": "Lasagne bolognese 1 kg",
+    "brand": "MAMA MANCINI"
+  },
+  {
+    "product_name": "Aardappelschotel 450 g.",
+    "brand": "Aviko"
+  },
+  {
+    "product_name": "Magnum ijs 4-6 stuks.",
+    "brand": "OLA"
+  },
+  {
+    "product_name": "Gyoza Inhoud: 12 stuks, 240 g.",
+    "brand": "ASIA GREEN GARDEN"
+  },
+  {
+    "product_name": "Kaas-snackmix 500 g.",
+    "brand": "ALPEN SCHMAUS"
+  },
+  {
+    "product_name": "Dolce Gusto koffiecups Cappuccino, lungo of latte macchiato. 16 cups.",
+    "brand": "NESCAF\u00c9 Dolce Gusto"
+  },
+  {
+    "product_name": "Dadelsuiker 100 g.",
+    "brand": "BIO"
+  },
+  {
+    "product_name": "Bakmix 400 g",
+    "brand": "ALBONA"
+  },
+  {
+    "product_name": "HEERLIJCK BANKET Kano's OP=OP. Inhoud: 14 stuks, 650 g.",
+    "brand": "Kano's"
+  },
+  {
+    "product_name": "Milk Mouse duo-cr\u00e8me 200 g.",
+    "brand": "CHOCEUR"
+  },
+  {
+    "product_name": "Goudse kaasplakken 48+ Jong, jong belegen, belegen, extra belegen en oud. 200 g.",
+    "brand": "MOLENLAND"
+  },
+  {
+    "product_name": "8-pack mini's ontbijtgranen 230 g.",
+    "brand": "GOLDEN BRIDGE"
+  },
+  {
+    "product_name": "Volle chocolademelk 1 l.",
+    "brand": "MILSANI"
+  },
+  {
+    "product_name": "Sinterklaaschips paprika 125 g.",
+    "brand": "SUN SNACKS"
+  },
+  {
+    "product_name": "Chips OP=OP. 300 g.",
+    "brand": "SUN SNACKS"
+  },
+  {
+    "product_name": "Toffifee 125 g.",
+    "brand": "STORCK"
+  },
+  {
+    "product_name": "Chocoladeletter 75 g.",
+    "brand": "Chocoladeletter"
+  },
+  {
+    "product_name": "Biologisch sap 1 L.",
+    "brand": "GUTBIO"
+  },
+  {
+    "product_name": "Ice tea appel-kaneel of sinaasappel-chai 1.5 l.",
+    "brand": "RIVER"
+  },
+  {
+    "product_name": "24-pack energydrink OP=OP. 24x25 cl.",
+    "brand": "GOLDEN POWER"
+  },
+  {
+    "product_name": "12-pack cola OP=OP. 12x33 cl.",
+    "brand": "RIVER"
+  },
+  {
+    "product_name": "La Coterie Grande R\u00e9serve, Frankrijk Grenache Syrah Mour-v\u00e8dre of Chardonnay. 0.75 1.",
+    "brand": "La Coterie"
+  },
+  {
+    "product_name": "Extra strong 10% 0.5 l. Per stuk 1.13.",
+    "brand": "SCHULTENBR\u00c4U"
+  }
+]

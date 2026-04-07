@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Marsepein fruit",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Chocolade-figuurtjes stoomboot",
+    "brand": "AH"
+  },
+  {
+    "product_name": "chocoladeletters 135-150 gram",
+    "brand": "Delicata"
+  },
+  {
+    "product_name": "Confetti chocolade-letters",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Speculaas-brokken met amandelen",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Kruidnoten specials",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle Coca-Cola literflessen",
+    "brand": "Coca-Cola"
+  },
+  {
+    "product_name": "Alle Fanta en Sprite literflessen",
+    "brand": "Fanta, Sprite"
+  },
+  {
+    "product_name": "Alle Doritos 160-185 gram en Lay's Oven Baked 150 gram",
+    "brand": "Doritos, Lay's"
+  },
+  {
+    "product_name": "Alle Raak siropen",
+    "brand": "Raak"
+  },
+  {
+    "product_name": "Alle Appelsientje FruitDrink en DubbelFrisss Boost 1-1.5 liter Bijv. DubbelFrisss Boost ananas & mango",
+    "brand": "Appelsientje, DubbelFrisss"
+  },
+  {
+    "product_name": "Brouwerij 't IJ, La Chouffe of Duvel multipacks Bijv. Brouwerij 't IJ ijwit Set 4 flesjes \u00e0 0.33 liter",
+    "brand": "Brouwerij 't IJ, La Chouffe, Duvel"
+  },
+  {
+    "product_name": "Fuze tea 1.25-1.5 liter Bijv. sparkling black tea 3 flessen \u00e0 1.25 liter",
+    "brand": "Fuze tea"
+  },
+  {
+    "product_name": "Hero cassis 1.25-1.5 liter",
+    "brand": "Hero"
+  },
+  {
+    "product_name": "Smint Bijv. peppermint XL mints sugarfree Duopack",
+    "brand": "Smint"
+  },
+  {
+    "product_name": "multipacks of kratten Bijv. Amstel pilsener Krat 24 flesjes \u00e0 0.3 liter",
+    "brand": "Grolsch, Amstel of Bavaria"
+  },
+  {
+    "product_name": "multipacks Bijv. Leffe blond abdijbier Set 6 flessen \u00e0 0.3 liter",
+    "brand": "Tripel Karmeliet of Leffe"
+  },
+  {
+    "product_name": "Alle Spaanse rode wijnen 0.75 liter Bijv. Marqu\u00e9s de Vitoria Rioja crianza",
+    "brand": "Marqu\u00e9s de Vitoria Rioja"
+  },
+  {
+    "product_name": "Alle Lindeman's South Africa 0.75 liter",
+    "brand": "Lindeman's"
+  },
+  {
+    "product_name": "Alle Dove, Axe en Andr\u00e9lon",
+    "brand": "Dove, Axe en Andr\u00e9lon"
+  },
+  {
+    "product_name": "Alle Listerine Bijv. mondwater total care 2 stuks \u00e0 500 ml",
+    "brand": "Listerine"
+  },
+  {
+    "product_name": "Alle Oral-B elektrisch poetsen Bijv. iO ultimate clean opzet-borstels Pak 4 stuks",
+    "brand": "Oral-B"
+  },
+  {
+    "product_name": "Anthurium en Begonia Grace Bijv. Begonia Grace Per stuk",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Hollandse lelie en chrysant-mix",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Avocado eetrijp 2 stuks",
+    "brand": "AH"
+  },
+  {
+    "product_name": "toiletpapier compleet schoon 24 rollen en gerecycled 18 rollen 2 pakken",
+    "brand": "Page"
+  },
+  {
+    "product_name": "Bijv. Giga pack Zak 20 stuks",
+    "brand": "Alle Dreft Platinum Miracle"
+  },
+  {
+    "product_name": "Bijv. Sun brilliant shine plus 3 zakken \u00e0 16 capsules",
+    "brand": "Alle Sun en Finish"
+  },
+  {
+    "product_name": "Libresse ultra regular multistyle maandverband",
+    "brand": "Libresse en Tena"
+  },
+  {
+    "product_name": "ultra secure night extra wings",
+    "brand": "Always"
+  },
+  {
+    "product_name": "tissues of zakdoeken",
+    "brand": "A-merk"
+  },
+  {
+    "product_name": "vitamine D3 25 mcg capsules 2 potten \u00e0 120 stuks",
+    "brand": "Lucovitaal"
+  },
+  {
+    "product_name": "wasparfums",
+    "brand": "Robijn"
+  },
+  {
+    "product_name": "droog & zacht luiers en pants Bijv. luiers maat 2 Pak 18 stuks",
+    "brand": "AH Extra"
+  },
+  {
+    "product_name": "knijpzakjes baby en kind snacks Bijv. Organix knijpfruit haver, appel, banaan, framboos & bosbes 12m+ 2 zakjes \u00e0 100 gram",
+    "brand": "A-merk"
+  },
+  {
+    "product_name": "Nutrilon 800 gram 2 t/m 5",
+    "brand": "Nutrilon"
+  },
+  {
+    "product_name": "Alle Olvarit potten",
+    "brand": "Olvarit"
+  },
+  {
+    "product_name": "Ondergoed Bijv. pure comfort maxi medium wit Set 2 stuks",
+    "brand": "Sloggi"
+  },
+  {
+    "product_name": "Alle Bolsius rustieke kaarsen Bijv. dinerkaars rustiek bordeaux 27cm Per stuk",
+    "brand": "Bolsius"
+  },
+  {
+    "product_name": "2-gangen-diner",
+    "brand": "Loetje"
+  },
+  {
+    "product_name": "Libelle",
+    "brand": "Various"
+  },
+  {
+    "product_name": "Donald Duck",
+    "brand": "Various"
+  },
+  {
+    "product_name": "Margriet",
+    "brand": "Various"
+  },
+  {
+    "product_name": "Dinner4All Circle",
+    "brand": "PRINCESS"
+  },
+  {
+    "product_name": "Pizza-oven met gourmetstel",
+    "brand": "BluMill"
+  },
+  {
+    "product_name": "Elektrische fondueset party C410 kit",
+    "brand": "BOSKA"
+  },
+  {
+    "product_name": "Classic",
+    "brand": "MagnaMinds"
+  },
+  {
+    "product_name": "Puzzel met 40.320 stukjes",
+    "brand": "Ravensburger"
+  },
+  {
+    "product_name": "glashangers",
+    "brand": "AH Excellent"
+  },
+  {
+    "product_name": "Guirlande met verlichting Bijv. 270 cm - Batterij",
+    "brand": "Nordlandia"
+  }
+]

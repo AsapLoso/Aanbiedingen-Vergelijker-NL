@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Trui S t/m L. Per stuk.",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Merinowollen trui M t/m XL. Per stuk.",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Fleece-pyjama S t/m L. Per set.",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "2-pack huissokken 35-38 of 39-42.",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Shirt S t/m XL",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Pantalon 60% katoen/ 38% polyester/ 2% elastaan. S t/m XL",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "5-pack sokken giftbox 79% katoen/ 20% polyamide/ 1% elastaan. 35-38 t/m 43-46",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Thermo-jeans 98% katoen/ 2% elastaan. 48 t/m 56. Per stuk.",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Leren inlegzolen 36-37 t/m 44-45. Per paar.",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Lamsvacht pantoffels Lichtbruin: 37 t/m 41 of donkerbruin: 42 t/m 45. Per paar.",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Rode puntpaprikas 500 G",
+    "brand": "None"
+  },
+  {
+    "product_name": "Blauwe bessen",
+    "brand": "None"
+  },
+  {
+    "product_name": "Snijbonen",
+    "brand": "None"
+  },
+  {
+    "product_name": "Junami appels",
+    "brand": "None"
+  },
+  {
+    "product_name": "Bloemkoolrijst",
+    "brand": "None"
+  },
+  {
+    "product_name": "Krokante hamburgers Inhoud: 2 stuks, 200-260 g.",
+    "brand": "Beter Leven"
+  },
+  {
+    "product_name": "Ribkarbonade 560 g.",
+    "brand": null
+  },
+  {
+    "product_name": "Argentijnse steaks Inhoud: 2 stuks, 250 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Gehaktschnitzels Inhoud: 2 stuks, 400 g.",
+    "brand": null
+  },
+  {
+    "product_name": "Scharrel-kipdijfilet 800 g.",
+    "brand": "Beter Leven"
+  },
+  {
+    "product_name": "Kip crunchies 400 g.",
+    "brand": "TRADERS JOE'S"
+  },
+  {
+    "product_name": "Tempeh blokjes 180 g.",
+    "brand": "MY VAY"
+  },
+  {
+    "product_name": "Filet americain OP=OP. 175 g.",
+    "brand": "smakelijks"
+  },
+  {
+    "product_name": "Spekreepjes OP=OP.",
+    "brand": null
+  },
+  {
+    "product_name": "Cranberry- of roompat\u00e9 150 g.",
+    "brand": "Beter Leven"
+  },
+  {
+    "product_name": "Kipvleugels 250 g.",
+    "brand": "Beter Leven"
+  },
+  {
+    "product_name": "Snuggle hoodie kids",
+    "brand": "Elders"
+  },
+  {
+    "product_name": "Snuggle hoodie",
+    "brand": "Elders"
+  },
+  {
+    "product_name": "Hutspot of Poldergoud geschilde stamppot aardappelen Zak 500 gram of 1 kilo",
+    "brand": "Hutspot of Poldergoud"
+  },
+  {
+    "product_name": "Groene salade Caesar of komkommer farmer",
+    "brand": "Groene salade"
+  },
+  {
+    "product_name": "Hollandse Elstar appels 1.5 KILO",
+    "brand": "Hollandse"
+  },
+  {
+    "product_name": "BIO+ rode kool met appel Zak 500 gram",
+    "brand": "BIO+"
+  },
+  {
+    "product_name": "Avocado's ready to eat Schaal 2 stuks",
+    "brand": "EAT ME"
+  },
+  {
+    "product_name": "Mandarijnen",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Broccoli",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Snijbonen 400 gram",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "chocoladeletter, chocolade, kruidnoten, chocolate chip, chocolade sintjes",
+    "brand": "1 de Beste"
+  },
+  {
+    "product_name": "Magere varkenslappen Pak 5 stuks",
+    "brand": "de Vleeschmeesters"
+  },
+  {
+    "product_name": "Zalmfilet met huid Pak 2 stuks",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Hongaarse gehaktschnitzels Pak 4 stuks.",
+    "brand": "de Vleeschmeesters"
+  },
+  {
+    "product_name": "Ribkarbonade Pak 5 stuks",
+    "brand": "de Vleeschmeesters"
+  },
+  {
+    "product_name": "Marine style filet of sensational chipolata worsten. Pak 180 gram. OP=OP",
+    "brand": "Garden Gourmet"
+  },
+  {
+    "product_name": "Kipdrumsticks Naturel. Pak 450 gram.",
+    "brand": "de Vleeschmeesters"
+  },
+  {
+    "product_name": "Crumbel sint speculooskoeken Bak 270 gram",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Speculaas gevulde koeken",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Mini rozijnenbollen Zak 9 stuks",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Ronde kaassuisse of ham-kaas croissant Vers afgebakken. Per stuk.",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Polders brood Wit of bruin meergranen",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Jonge kaas 48+",
+    "brand": "Dirk"
+  },
+  {
+    "product_name": "Grillworst Naturel. Pak 125 gram",
+    "brand": "1 de Beste"
+  }
+]

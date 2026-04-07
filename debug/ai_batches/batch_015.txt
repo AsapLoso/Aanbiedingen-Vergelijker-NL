@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Bij aankoop van 3 blikken Unox knaks \u00e0 400 gram, een gratis zak witte of volkoren puntjes",
+    "brand": "Unox"
+  },
+  {
+    "product_name": "Alle gekoelde Alpro M.u.v. Margarine en plantaardige yoghurt 135 gram",
+    "brand": "Alpro"
+  },
+  {
+    "product_name": "Danio kwark Alle verpakkingen \u00e0 450 gram",
+    "brand": "Danio"
+  },
+  {
+    "product_name": "Alle HiPRO Bijv. Protein drink framboos aardbei flesje \u00e0 300 ml",
+    "brand": "HiPRO"
+  },
+  {
+    "product_name": "Bolletje luchtig, kn\u00e4ckebr\u00f6d of oerkn\u00e4ck",
+    "brand": "Bolletje"
+  },
+  {
+    "product_name": "Bolletje schuddebuikjes \u00e0 300 gram",
+    "brand": "Bolletje"
+  },
+  {
+    "product_name": "Campina Langlekker Alle pakken \u00e0 1 liter",
+    "brand": "Campina"
+  },
+  {
+    "product_name": "Krat of set \u00e0 4, 6 of 12 flesjes of blikjes M.u.v. Gekoelde bieren Bijv. Corona extra verpakking 6 flesjes \u00e0 330 ml",
+    "brand": "Leffe of Corona"
+  },
+  {
+    "product_name": "Suprema Bijv. Suprema salame romano 2 stuks",
+    "brand": "Dr. Oetker Suprema"
+  },
+  {
+    "product_name": "Speciaalbieren van Alcoholhoudend of 0.0%, set \u00e0 4, 6 of 12 flesjes of blikjes of los blikje of flesje M.u.v. Bockbieren en geschenkverpakkingen",
+    "brand": "Hertog Jan, Karmeliet, Affligem, Grimbergen of Jopen"
+  },
+  {
+    "product_name": "Krat Heineken 0.0%, set \u00e0 4, 6 of 12 flesjes of blikjes of losse flesjes of blikjes M.u.v. Bockbieren, gekoeld bier of geschenkverpakkingen Bijv. Heineken premium pilsener bier verpakking 6 blikjes \u00e0 330 ml",
+    "brand": "Heineken, Desperados of Texels"
+  },
+  {
+    "product_name": "Alcoholhoudend M.u.v. Geschenkverpakkingen Bijv. Grolsch herfstbok verpakking 6 flesjes \u00e0 300 ml",
+    "brand": "Alle bockbieren"
+  },
+  {
+    "product_name": "Ariel 3in1 pods original 2 verpakkingen \u00e0 15 capsules",
+    "brand": "Ariel of Lenor"
+  },
+  {
+    "product_name": "Prodent tandpasta cool mint 2 tubes \u00e0 75 ml",
+    "brand": "Prodent of Zendium"
+  },
+  {
+    "product_name": "Jordan tandpasta junior 6-12 jaar 2 tubes \u00e0 50 ml",
+    "brand": "Jordan of Vogue"
+  },
+  {
+    "product_name": "Wellaflex ultra sterk haarspray 2 bussen \u00e0 400 ml",
+    "brand": "Wella of New Wave"
+  },
+  {
+    "product_name": "Loving Blends shampoo honing goud 2 flacons \u00e0 300 ml",
+    "brand": "Elvive of Loving Blends"
+  },
+  {
+    "product_name": "Alle Pampers M.u.v. Voordeelverpakking doekjes Bijv. Premium protection maat 5, 5 verpakkingen \u00e0 22 luiers",
+    "brand": "Pampers"
+  },
+  {
+    "product_name": "Page compleet schoon toiletpapier of vochtig toiletpapier Alle verpakkingen \u00e0 6 of 12 rollen of 38 stuks Bijv. Compleet schoon toiletpapier 2 verpakkingen \u00e0 12 rollen",
+    "brand": "Page"
+  },
+  {
+    "product_name": "All in One vaatwastabletten Verpakking \u00e0 40 stuks",
+    "brand": "Jumbo"
+  },
+  {
+    "product_name": "Milde halfvolle yoghur",
+    "brand": "Campina"
+  },
+  {
+    "product_name": "Verse halfvolle melk",
+    "brand": "Campina"
+  },
+  {
+    "product_name": "Gourmet Mini's",
+    "brand": "Gourmet"
+  },
+  {
+    "product_name": "Calv\u00e9 fles 250-320 ml of alle verpakkingen Heinz & Wijko M.u.v. Heinz fles 875 ml en Wijko bak 1 kilo Bijv. Heinz tomaten ketchup 2 flessen \u00e0 400 ml",
+    "brand": "Heinz, Calv\u00e9 of Wijko"
+  },
+  {
+    "product_name": "Emmi fond\u00fc Original Pak 400 gram",
+    "brand": "Emmi"
+  },
+  {
+    "product_name": "Alle Jumbo's tapas",
+    "brand": "Jumbo"
+  },
+  {
+    "product_name": "Alle biologische wijnen Alle flessen \u00e0 750 ml Bijv. Jumbo Pinot Grigio biologisch",
+    "brand": "Jumbo"
+  },
+  {
+    "product_name": "chocoladerepen Reep 140 gram",
+    "brand": "Jumbo's"
+  },
+  {
+    "product_name": "Coca-Cola smaken Vanille, cafe\u00efnevrij of cherry Alle flessen \u00e0 1,5 liter of sets 4 blikjes \u00e0 250 ml",
+    "brand": "Coca-Cola"
+  },
+  {
+    "product_name": "flat chips Alle zakken \u00e0 100-200 gram",
+    "brand": "Cheetos, Hamka's, Mama Mia's, Ringlings, Wokkels of Lay's"
+  },
+  {
+    "product_name": "Alle Clipper thee",
+    "brand": "Clipper"
+  },
+  {
+    "product_name": "Alle A-merk koffiebonen M.u.v. Douwe Egberts, Gala, L'Or en Kanis & Gunnik Bijv. Illy bonen classico 2 verpakkingen \u00e0 250 gram",
+    "brand": "Douwe Egberts, Gala, L'Or en Kanis & Gunnik, Illy"
+  },
+  {
+    "product_name": "Verse Kraakman koeken",
+    "brand": "Kraakman"
+  },
+  {
+    "product_name": "Jumbo's filterkoffie Alle verpakkingen \u00e0 500 gram Bijv. snelfiltermaling Aroma",
+    "brand": "Jumbo"
+  },
+  {
+    "product_name": "Frambozen of blauwe bessen Bakje 250 of 300 gram",
+    "brand": "None"
+  },
+  {
+    "product_name": "Zespri kiwi sungold of green Bak 750 gram of 1 kilo",
+    "brand": "None"
+  },
+  {
+    "product_name": "Jumbo ovenaardappelen of ovengroenten Alle verpakkingen \u00e0 300-700 gram",
+    "brand": "Jumbo"
+  },
+  {
+    "product_name": "Bloemkool of witlof Bloemkool per stuk of witlof zak 500 gram",
+    "brand": "None"
+  },
+  {
+    "product_name": "Trostomaten Schaal 5 stuks",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Witte pitloze druiven bak 500 gram, kaki bak 1 kilo, snackgroente tomaatjes bak 500 gram of zoete puntpaprika zak 500 gram",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Mandarijnen Net 1 kilo",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Jumbo roerbakgarnalen Bakje 350 gram",
+    "brand": "Jumbo"
+  },
+  {
+    "product_name": "Jumbo roerbakmixen Italiaans, Chinees of Proven\u00e7aals Alle zakken \u00e0 400 gram",
+    "brand": "Jumbo"
+  },
+  {
+    "product_name": "Alle De Vegetarische Slager vleesvervangers M.u.v. Grootverpakkingen",
+    "brand": "Alle De Vegetarische Slager"
+  },
+  {
+    "product_name": "Jumbo zalmfilet Verpakking ca. 360 gram",
+    "brand": "Jumbo"
+  },
+  {
+    "product_name": "Alle ongekoelde maaltijdpakketten",
+    "brand": "Alle"
+  },
+  {
+    "product_name": "Alle Honig maaltijdmixen, maaltijdpakketten of soepen M.u.v. Multipacks Bijv. Maaltijdmix voor macaroni en spaghetti 2 verpakkingen \u00e0 41 gram",
+    "brand": "Honig"
+  },
+  {
+    "product_name": "Alle potten \u00e0 370 ml, pakken of stazakken Bijv. Appelmoes 2 potten \u00e0 370 ml",
+    "brand": "HAK"
+  },
+  {
+    "product_name": "Alle Ariel en Lenor",
+    "brand": "Ariel en Lenor"
+  },
+  {
+    "product_name": "AH Avocado eetrijp 2 stuks",
+    "brand": "Groente"
+  }
+]

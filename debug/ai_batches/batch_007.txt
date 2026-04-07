@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Sleutelkluis met code Tot 10.000 combinaties mogelijk met 4-cijferig slot. Per stuk.",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Dubbelzijdig tape 3 m x 24 mm. Nano-tape transparant. Per stuk.",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Koolmonoxidemelder",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Rookmelder",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "5-in-1 siliconen- verwijderaarset",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Snelspanklemmenset Set van 2: ca. 50x31cm of set van 4: ca. 20x11 cm/ 35x16 cm",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Tochtstrip Ca. 95 cm",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Ledzaklamp 1200 lm",
+    "brand": "CASALUX"
+  },
+  {
+    "product_name": "Speciaal-borenset",
+    "brand": "FERREX"
+  },
+  {
+    "product_name": "Schroevendraaier- en bitset",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Verlengsnoer 10 m",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Ringsteeksleutelset",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Ledbouwlamp",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Ventilator-kachel",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Teddy fleecedeken Ca. 150x200 cm. Per stuk.",
+    "brand": "HOME CREATION"
+  },
+  {
+    "product_name": "Rug- of gewrichtsverwarmer Rugverwarmer: S t/m XL. Gewrichtsverwarmer: one size. Per stuk.",
+    "brand": "CRANE"
+  },
+  {
+    "product_name": "Huispak 78% katoen/ 22% polyester. S t/m XL. Per set.",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Pantoffels 37 t/m 41. Per paar.",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Mouwloos fleecevest S t/m XL",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "3-pack sokken Grof gebreid. 39-42 of 43-46.",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "2-pack sokken Met wol. 37-39 t/m 43-45.",
+    "brand": "CRANE"
+  },
+  {
+    "product_name": "Pantoffels 36-37 t/m 40-41",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Corduroy pantoffels Zwart: 44 t/m 46. Beige: 41 t/m 43.",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Elektrische of gasaansteker Elektrische aansteker incl. USB-C-kabel. Gas-aansteker incl. navulfles van ca. 18 ml.",
+    "brand": "FLEXO"
+  },
+  {
+    "product_name": "Heetwaterdispenser Geschikt voor het opwarmen en warmhouden van dranken. ca. 4 l instelbare warmte ca. 40-100 \u00b0C met tapkraan",
+    "brand": "AMBIANO"
+  },
+  {
+    "product_name": "Kersttafel-kleed of -tafelloper Ca. 85x85 cm of 50x150 cm",
+    "brand": "HOME CREATION"
+  },
+  {
+    "product_name": "Kristalglas 6-pack glazen Water-, champagne- of wijnglazen",
+    "brand": "CROFTON"
+  },
+  {
+    "product_name": "Raclette of fondueset 1400-1500 W",
+    "brand": "AMBIANO"
+  },
+  {
+    "product_name": "Bestek 0.a. taartmes en -schep, slacouvert, 6 taartvorkjes.",
+    "brand": "CROFTON"
+  },
+  {
+    "product_name": "Etag\u00e8re New bone-porselein. Met 2 of 3 niveaus.",
+    "brand": "CROFTON"
+  },
+  {
+    "product_name": "Servies Bord: ca. 25x39 cm, saladekom: ca. \u00d8 32 cm of 2x kom: ca. \u00d8 24 cm.",
+    "brand": "CROFTON"
+  },
+  {
+    "product_name": "Bureaukalender",
+    "brand": null
+  },
+  {
+    "product_name": "Douchegel 400 ml.",
+    "brand": "AXE"
+  },
+  {
+    "product_name": "Shampoo en showergel 2 in 1 300 ml.",
+    "brand": "LACURA"
+  },
+  {
+    "product_name": "Red Bull 250 ml.",
+    "brand": "Red Bull"
+  },
+  {
+    "product_name": "GOLDEN POWER Regular 250 ml.",
+    "brand": "GOLDEN POWER"
+  },
+  {
+    "product_name": "Light margarine kuip 600 g.",
+    "brand": "BECEL"
+  },
+  {
+    "product_name": "Bewust light kuip 500 g.",
+    "brand": "HELLA"
+  },
+  {
+    "product_name": "Pyjama 75% katoen/25% polyester. 122-128 t/m 146-152.",
+    "brand": "LILY & DAN"
+  },
+  {
+    "product_name": "Pyjama 75% katoen/25% polyester. 86-92 t/m 110-116.",
+    "brand": "LILY & DAN"
+  },
+  {
+    "product_name": "Lounge hoodie 110-122 of 128-140.",
+    "brand": "LILY & DAN"
+  },
+  {
+    "product_name": "Dekbedovertrek 100% katoen. Met instopstrook. Ca. 140x200 cm + 60x70 cm.",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "2-pack flanellen kussenslopen 100% katoen. Ca. 60x70 cm.",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "Hoeslaken 100% katoen. Max. matrashoogte: 20 cm. ca. 90x200 cm",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "Hoeslaken 100% katoen. Max. matrashoogte: 20 cm. ca. 140x200 cm",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "Hoeslaken 100% katoen. Max. matrashoogte: 20 cm. ca. 160x200 cm",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "Hoeslaken 100% katoen. Max. matrashoogte: 20 cm. ca. 180x200 cm",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "Flanellen dekbedovertrek 100% katoen. Met instopstrook. ca. 140x200 cm + 60x70 cm",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "Flanellen dekbedovertrek 100% katoen. Met instopstrook. ca. 200x200 cm + 2x 60x70 cm",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "Flanellen dekbedovertrek 100% katoen. Met instopstrook. ca. 240x220 cm + 2x 60x70 cm",
+    "brand": "NOVITESSE"
+  }
+]

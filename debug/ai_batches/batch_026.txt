@@ -1,0 +1,150 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Licor 43 1.75 LITER",
+    "brand": "Licor 43"
+  },
+  {
+    "product_name": "Jack Daniel's 1.5 LITER",
+    "brand": "Jack Daniel's"
+  },
+  {
+    "product_name": "Johnnie Walker Black Label 1.75 LITER",
+    "brand": "Johnnie Walker"
+  },
+  {
+    "product_name": "Fleece rib dekbed overtrek 140 x 220 cm",
+    "brand": "Eastlands"
+  },
+  {
+    "product_name": "200 x 200 cm",
+    "brand": "Eastlands"
+  },
+  {
+    "product_name": "200 x 240 cm",
+    "brand": "Eastlands"
+  },
+  {
+    "product_name": "Diverse spellen",
+    "brand": "Various"
+  },
+  {
+    "product_name": "Kookbijbel Diverse titels",
+    "brand": "Various"
+  },
+  {
+    "product_name": "Bolsius 6-uurs theelichten",
+    "brand": "Bolsius"
+  },
+  {
+    "product_name": "Bord kerstboom deco \u00d8 26,5 cm",
+    "brand": "Bord"
+  },
+  {
+    "product_name": "Diepbord of schaaltje kerstboom deco Bord \u00d8 21 cm of schaaltje \u00d8 14 cm",
+    "brand": "Diepbord"
+  },
+  {
+    "product_name": "Krans of haard 35 cm 120 LED met timer of LED roest look 124,5 x b9x h23 cm",
+    "brand": "Krans"
+  },
+  {
+    "product_name": "Lichtkrans 30 cm 96 goud LED, met timer",
+    "brand": "Lichtkrans"
+  },
+  {
+    "product_name": "Zwarte decoratieboom 120 cm met 80 LED's Spiraalvormige kerstboom 140 cm met 300 LED's Staande sterren set met 2 stuks 95-125 cm - 180 LED's",
+    "brand": "Zwarte decoratieboom"
+  },
+  {
+    "product_name": "Kunstkerstboom met versiering D 50 x H 90 cm",
+    "brand": "Kunstkerstboom"
+  },
+  {
+    "product_name": "Cote d'Or, LU minicrackers, Tuc, Philadelphia, Milka of Liga",
+    "brand": "Cote d'Or"
+  },
+  {
+    "product_name": "Decemberkalenders",
+    "brand": "Decemberkalenders"
+  },
+  {
+    "product_name": "Lay's, Doritos, Quaker Cruesli of Duyvis",
+    "brand": "Lay's"
+  },
+  {
+    "product_name": "Pickwick Premium",
+    "brand": "Pickwick"
+  },
+  {
+    "product_name": "Brand speciaalbier",
+    "brand": "Brand"
+  },
+  {
+    "product_name": "Brand Bock 6x30cl",
+    "brand": "Brand"
+  },
+  {
+    "product_name": "Brand TPA 6x300ML",
+    "brand": "Brand"
+  },
+  {
+    "product_name": "Alle Pampers",
+    "brand": "Pampers"
+  },
+  {
+    "product_name": "Page compleet schoon toiletpapier of vochtig toiletpapier",
+    "brand": "Page"
+  },
+  {
+    "product_name": "RITTENKAART",
+    "brand": "JUMBO"
+  },
+  {
+    "product_name": "Jumbo All in One vaatwastabletten Verpakking \u00e0 40 stuks",
+    "brand": "Jumbo"
+  },
+  {
+    "product_name": "Milde halfvoll yoghur melk Verse halfvolle",
+    "brand": "Campina"
+  },
+  {
+    "product_name": "Mandarijnen 1 kilo",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Mandarijnen 1 kilo en AH Biologisch mandarijnen 750 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Elstar appels of conference peren",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Krieltjes vastkokend 1 kilo",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle Pink Lady appels",
+    "brand": "Pink Lady"
+  }
+]

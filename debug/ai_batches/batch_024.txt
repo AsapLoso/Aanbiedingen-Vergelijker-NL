@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Voordeelbox 5 LITER!",
+    "brand": "SPA REINE"
+  },
+  {
+    "product_name": "Regular Hele liter",
+    "brand": "7-UP"
+  },
+  {
+    "product_name": "Black Label 1,75 liter",
+    "brand": "Johnnie Walker"
+  },
+  {
+    "product_name": "N\u00b021 Vodka 1,5 liter",
+    "brand": "Smirnoff"
+  },
+  {
+    "product_name": "The Original 1,5 liter",
+    "brand": "Baileys"
+  },
+  {
+    "product_name": "Single Malt Scotch Whisky",
+    "brand": "Talisker"
+  },
+  {
+    "product_name": "Lemon",
+    "brand": "Royal Club"
+  },
+  {
+    "product_name": "Lemon",
+    "brand": "Fanta"
+  },
+  {
+    "product_name": "True Scents geurstokjes Diverse geuren. Inhoud 60 ml",
+    "brand": "Bolsius"
+  },
+  {
+    "product_name": "vochtig toiletpapier Alle varianten. Pak 42 stuks",
+    "brand": "Edet"
+  },
+  {
+    "product_name": "discreet Verband of inlegkruisjes. Pak 10-28 stuks.",
+    "brand": "Tena"
+  },
+  {
+    "product_name": "wasverzachter Flacon 55 wasbeurten",
+    "brand": "Lenor"
+  },
+  {
+    "product_name": "vaatwastabletten Ultimate of Ultimate Plus. Zak 10 of 13 stuks",
+    "brand": "Finish"
+  },
+  {
+    "product_name": "Max Power handafwas Original of lemon. 730 ML",
+    "brand": "Dreft"
+  },
+  {
+    "product_name": "Ariel pods 30 wasbeurten, poeder 40 wasbeurten of vloeibaar wasmiddel 30 wasbeurten",
+    "brand": "Ariel"
+  },
+  {
+    "product_name": "kattenvoer Kuip 85 gram",
+    "brand": "Sheba"
+  },
+  {
+    "product_name": "Lang Lekker Vol en halfvol. Pak 1.5 liter",
+    "brand": "Campina"
+  },
+  {
+    "product_name": "Alle soorten Robijn wasverzachter Morgenfris 780 ml",
+    "brand": "Robijn"
+  },
+  {
+    "product_name": "Honig mix of soep",
+    "brand": "Honig"
+  },
+  {
+    "product_name": "Unox rookworst alle pakken van 250 - 285 gram",
+    "brand": "Unox"
+  },
+  {
+    "product_name": "Calv\u00e9 pindakaas 2 potten van 350 gram",
+    "brand": "Calv\u00e9"
+  },
+  {
+    "product_name": "Knorr wereld-gerechten alle soorten",
+    "brand": "Knorr"
+  },
+  {
+    "product_name": "Johma salade Alle kuipjes van 175 gram",
+    "brand": "Johma"
+  },
+  {
+    "product_name": "Kwaliteit spekreepjes of dobbelsteentjes gerookt Alle pakken van 200 of 250 gram",
+    "brand": "Slagers"
+  },
+  {
+    "product_name": "boer'n yoghurt, vla of stevige trek Alle soorten",
+    "brand": "Zuivelhoeve"
+  },
+  {
+    "product_name": "Alle soorten Actieprijzen vari\u00ebren van 2.55-4.11",
+    "brand": "Parrano"
+  },
+  {
+    "product_name": "2 zakken van 400 gram Actieprijzen vari\u00ebren van 1.99-2.95",
+    "brand": "Wok- of roerbakgroenten"
+  },
+  {
+    "product_name": "runder-gehaktballen Alle pakken van 300 gram",
+    "brand": "Food by four"
+  },
+  {
+    "product_name": "slagersleverworst, roompat\u00e9 of kleintje smeerleverworst Alle stukken van 230 gram, zakjes met 6 stuks of kuipje van 125 gram",
+    "brand": "Kips"
+  },
+  {
+    "product_name": "yoghurt Alle bekers van 450-500 gram",
+    "brand": "Almhof"
+  },
+  {
+    "product_name": "Alle kuipjes van 150-200 gram Actieprijzen vari\u00ebren van 2.75-3.69 Bijv. 2 kuipjes van 150 gram",
+    "brand": "Heks'nkaas"
+  },
+  {
+    "product_name": "Fanta, Sprite of Fernandes Alle flessen van 1.5 liter",
+    "brand": "Fanta"
+  },
+  {
+    "product_name": "Chocomel 2 pakken van 1 liter",
+    "brand": "Chocomel"
+  },
+  {
+    "product_name": "Klene suikervrij Alle zakken van 90 - 110 gram",
+    "brand": "Klene"
+  },
+  {
+    "product_name": "Aviko SuperCrunch Alle zakken van 750 gram",
+    "brand": "Aviko"
+  },
+  {
+    "product_name": "Tristar XL heteluchtfriteuse FR-6956 4.5 liter",
+    "brand": "Tristar"
+  },
+  {
+    "product_name": "Sun Pro Expert lemon Zak met 16 stuks",
+    "brand": "Sun"
+  },
+  {
+    "product_name": "Felix Pouch of Vitakraft Liquid Snack Alle pakken met 12 stuks of 240 gram",
+    "brand": "Felix"
+  },
+  {
+    "product_name": "Lenor geurparels of wasverzachter, Dreft vaatwastabletten of Ariel Pods of vloeibaar Alle pakken van 495 gram, 36 of 30 stuks, of flessen van 1350-2650 ml",
+    "brand": "Lenor"
+  },
+  {
+    "product_name": "Perssinaasappels Net van 2 kilo",
+    "brand": "Perssinaasappels"
+  },
+  {
+    "product_name": "Pok\u00e9bowl kip, tonijn of zalm Alle schalen van 280 gram",
+    "brand": "Pok\u00e9bowl"
+  },
+  {
+    "product_name": "Cocktail- trostomaten Schaal van 500 gram",
+    "brand": "Cocktail"
+  },
+  {
+    "product_name": "Blauwe bessen Schaal van 300 gram",
+    "brand": "Blauwe bessen"
+  },
+  {
+    "product_name": "Soep verspakketten Alle soorten",
+    "brand": "Soep"
+  },
+  {
+    "product_name": "Avocado Ready to eat",
+    "brand": "Kies & Mix"
+  },
+  {
+    "product_name": "boomstammetjes, gehakt cordonbleu of slavinken",
+    "brand": "Zigeunergehaktschnitzel"
+  },
+  {
+    "product_name": "500 gram",
+    "brand": "Verse zalmfilet"
+  },
+  {
+    "product_name": "Alle soorten",
+    "brand": "Vivera"
+  },
+  {
+    "product_name": "375 gram",
+    "brand": "Filetlapjes"
+  },
+  {
+    "product_name": "Italiaanse maaltijd 450 gram",
+    "brand": "Daily Chef"
+  }
+]

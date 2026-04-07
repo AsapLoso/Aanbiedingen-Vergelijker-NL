@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Al Jawhara medjoul dadels 1 KILO",
+    "brand": "Al Jawhara"
+  },
+  {
+    "product_name": "Noorse gerookte zalm Pak 150 gram",
+    "brand": "Dirk"
+  },
+  {
+    "product_name": "Port Salut of mascarpone gorgonzola Per stuk 185 of 190 gram",
+    "brand": "Dirk"
+  },
+  {
+    "product_name": "Ladessa filet Americain naturel Kuip 130 gram.",
+    "brand": "Dirk"
+  },
+  {
+    "product_name": "Pinda's Gezouten of ongezouten. Kuip 275 gram.",
+    "brand": "Dirk"
+  },
+  {
+    "product_name": "Iced tea lemon, iced tea peach, seltzer raspberry, seltzer passionfruit of mixed classics spritz. Blik 25 cl.",
+    "brand": "St\u00eblz"
+  },
+  {
+    "product_name": "Blended whisky Hele liter. OP=OP",
+    "brand": "Clan MacGregor"
+  },
+  {
+    "product_name": "Lang Lekker Vol en halfvol. Pak 1.5 liter.",
+    "brand": "Campina"
+  },
+  {
+    "product_name": "airfryer BBEK1138",
+    "brand": "Brabantia"
+  },
+  {
+    "product_name": "braadpan",
+    "brand": "Alpina"
+  },
+  {
+    "product_name": "grillplaat",
+    "brand": "Alpina"
+  },
+  {
+    "product_name": "Enrico glazen bewaarbus 311 ML",
+    "brand": "Enrico"
+  },
+  {
+    "product_name": "Enrico glazen bewaarbus 1040 ML",
+    "brand": "Enrico"
+  },
+  {
+    "product_name": "Enrico glazen bewaarbus 1760 ML",
+    "brand": "Enrico"
+  },
+  {
+    "product_name": "Pyrex Cook & Click glazen ovenschaal 800 ML",
+    "brand": "Pyrex Cook & Click"
+  },
+  {
+    "product_name": "Pyrex Cook & Click glazen ovenschaal 2 LITER",
+    "brand": "Pyrex Cook & Click"
+  },
+  {
+    "product_name": "Pyrex Cook & Click glazen ovenschaal 3.5 LITER",
+    "brand": "Pyrex Cook & Click"
+  },
+  {
+    "product_name": "Brabantia magnetron met grillfunctie BBEK1145DG Inhoud 20 liter",
+    "brand": "Brabantia"
+  },
+  {
+    "product_name": "Alpina multifunctionele schoonmaakborstel",
+    "brand": "Alpina"
+  },
+  {
+    "product_name": "Nintendo Switch spel Keuze uit o.a. Paw Patrol on a roll, Dragons dawn of new riders, Gigantosaurus en Jumanji.",
+    "brand": "Nintendo"
+  },
+  {
+    "product_name": "Hello Kitty of Harry Potter knuffel Hoogte ca. 25 cm.",
+    "brand": "Hello Kitty"
+  },
+  {
+    "product_name": "Goliath The Chuck Pinson puzzel Keuze uit diverse afbeeldingen.",
+    "brand": "Goliath"
+  },
+  {
+    "product_name": "Goliath The Chuck Pinson puzzel Keuze uit diverse afbeeldingen. 1000 Stukjes",
+    "brand": "Goliath"
+  },
+  {
+    "product_name": "Cluedo spel In diverse varianten.",
+    "brand": "Hasbro"
+  },
+  {
+    "product_name": "Philips draadloze hoofdtelefoon TAH3209BK",
+    "brand": "Philips"
+  },
+  {
+    "product_name": "Philips draadloze Qi oplader DLP9210/03",
+    "brand": "Philips"
+  },
+  {
+    "product_name": "Trust Primo powerbank 24676",
+    "brand": "Trust"
+  },
+  {
+    "product_name": "Dunlop led fietsverlichting",
+    "brand": "Dunlop"
+  },
+  {
+    "product_name": "Grundig knoopcelbatterijen CR2032",
+    "brand": "Grundig"
+  },
+  {
+    "product_name": "Energizer ledlamp Warm witlicht 2700k Normale fitting (E27), smalle fitting (E14) of spot (GU10) SMD led of filament led Diverse wattages/lumen",
+    "brand": "Energizer"
+  },
+  {
+    "product_name": "Bon Giorno kussenbeschermer 60 x 70 CM",
+    "brand": "Bon Giorno"
+  },
+  {
+    "product_name": "Bon Giorno hoofdkussen 60 x 70 CM",
+    "brand": "Bon Giorno"
+  },
+  {
+    "product_name": "Philips LongLife batterijen AA of AAA. 50-PACK",
+    "brand": "Philips"
+  },
+  {
+    "product_name": "Ten Cate badmat In diverse kleuren. 50 x 70 CM",
+    "brand": "Ten Cate"
+  },
+  {
+    "product_name": "Ten Cate washand \u2022 100% katoen",
+    "brand": "Ten Cate"
+  },
+  {
+    "product_name": "Ten Cate baddoek \u2022 In diverse kleuren. Extra zware kwaliteit \u2022 100% katoen 60 x 110 cm",
+    "brand": "Ten Cate"
+  },
+  {
+    "product_name": "Yu-La led kaars",
+    "brand": "Yu-La"
+  },
+  {
+    "product_name": "Aroma geurblokjes kadoset",
+    "brand": "CreaScents"
+  },
+  {
+    "product_name": "Grundig infrarood thermometer",
+    "brand": "Grundig"
+  },
+  {
+    "product_name": "Oral-B opzetborstels 4-PACK",
+    "brand": "Oral-B"
+  },
+  {
+    "product_name": "Oral-B Vitality Pro elektrische tandenborstel",
+    "brand": "Oral-B"
+  },
+  {
+    "product_name": "Alle soorten Actieprijzen vari\u00ebren van 5.79 - 18.99 Bijv. 3 flessen Robijn wasverzachter Morgenfris 780 ml",
+    "brand": "Robijn"
+  },
+  {
+    "product_name": "Honig mix of soep Alle soorten. M.u.v. families maaltijdpakketten",
+    "brand": "Honig"
+  },
+  {
+    "product_name": "Klene suikervrij Alle zakken van 90-110 gram",
+    "brand": "Klene"
+  },
+  {
+    "product_name": "Chio Oven Baked chips of sticks Alle zakken van 125 of 160 gram",
+    "brand": "Chio"
+  },
+  {
+    "product_name": "Pringles Alle bussen van 40 gram",
+    "brand": "Pringles"
+  },
+  {
+    "product_name": "Pepsi Alle blikjes van 250 ml",
+    "brand": "Pepsi"
+  },
+  {
+    "product_name": "SuperCrunch Alle zakken van 750 gram",
+    "brand": "Aviko"
+  },
+  {
+    "product_name": "XL heteluchtfriteuse FR-6956 4.5 liter, 8 bakprogramma's, PFAS-vrij",
+    "brand": "Tristar"
+  },
+  {
+    "product_name": "Dreft Quickwash of Power Spray Alle flessen van 1050 ml of spray's van 500 ml",
+    "brand": "Dreft"
+  }
+]

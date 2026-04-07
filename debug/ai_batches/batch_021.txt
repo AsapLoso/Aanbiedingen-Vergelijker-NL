@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "3-pack sokken",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Mouwloos fleecevest",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "2-pack sokken",
+    "brand": "CRANE"
+  },
+  {
+    "product_name": "Corduroy pantoffels",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Elektrische of gasaansteker",
+    "brand": "FLEXO"
+  },
+  {
+    "product_name": "Heetwaterdispenser ca. 4 l",
+    "brand": "AMBIANO"
+  },
+  {
+    "product_name": "Kersttafel-kleed of -tafelloper",
+    "brand": "HOME CREATION"
+  },
+  {
+    "product_name": "Kristalglas 6-pack glazen",
+    "brand": "CROFTON"
+  },
+  {
+    "product_name": "Raclette of fondueset",
+    "brand": "AMBIANO"
+  },
+  {
+    "product_name": "Bestek",
+    "brand": "CROFTON"
+  },
+  {
+    "product_name": "Etag\u00e8re",
+    "brand": "CROFTON"
+  },
+  {
+    "product_name": "Servies",
+    "brand": "CROFTON"
+  },
+  {
+    "product_name": "Bureaukalender",
+    "brand": "Bureaukalender"
+  },
+  {
+    "product_name": "Pyjama",
+    "brand": "LILY & DAN"
+  },
+  {
+    "product_name": "Lounge hoodie",
+    "brand": "LILY & DAN"
+  },
+  {
+    "product_name": "Dekbedovertrek",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "2-pack flanellen kussenslopen",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "Hoeslaken",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "Flanellen dekbedovertrek",
+    "brand": "NOVITESSE"
+  },
+  {
+    "product_name": "Trui",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Merinowollen trui",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Fleece-pyjama",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "2-pack huissokken",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Shirt",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Pantalon",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "5-pack sokken giftbox",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Thermo-jeans",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Leren inlegzolen",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Lamsvacht pantoffels",
+    "brand": "UP2FASHION"
+  },
+  {
+    "product_name": "Rode puntpaprikas 500 G",
+    "brand": "SANA"
+  },
+  {
+    "product_name": "Blauwe bessen",
+    "brand": "FRESH PRODUCE"
+  },
+  {
+    "product_name": "Snijbonen",
+    "brand": "FRESH PRODUCE"
+  },
+  {
+    "product_name": "Junami appels",
+    "brand": "FRESH PRODUCE"
+  },
+  {
+    "product_name": "Bloemkoolrijst",
+    "brand": "FRESH PRODUCE"
+  },
+  {
+    "product_name": "Snuggle hoodie kids",
+    "brand": "ELDERS"
+  },
+  {
+    "product_name": "Snuggle hoodie",
+    "brand": "ELDERS"
+  },
+  {
+    "product_name": "Blauwe bessen 300 gram",
+    "brand": "Blauwe bessen"
+  },
+  {
+    "product_name": "Gesneden verspakket",
+    "brand": "Gesneden verspakket"
+  },
+  {
+    "product_name": "Soupy verse erwtens\u00f5ep 950 ML",
+    "brand": "Soupy"
+  },
+  {
+    "product_name": "Duitse biefstuk",
+    "brand": "Vleeschmeesters"
+  },
+  {
+    "product_name": "Hazelnoot roomvlaai",
+    "brand": "Hazelnoot roomvlaai"
+  },
+  {
+    "product_name": "Noorse gerookte zalm 150 gram",
+    "brand": "Noorse"
+  },
+  {
+    "product_name": "Port Salut of mascarpone gorgonzola",
+    "brand": "Port Salut"
+  },
+  {
+    "product_name": "Ladessa filet Americain naturel Kuip 130 gram",
+    "brand": "Ladessa"
+  },
+  {
+    "product_name": "Pinda's",
+    "brand": "Pinda's"
+  },
+  {
+    "product_name": "St\u00eblz",
+    "brand": "St\u00eblz"
+  },
+  {
+    "product_name": "Clan MacGregor Blended whisky Hele liter",
+    "brand": "Clan MacGregor"
+  },
+  {
+    "product_name": "Mexx pantoffels",
+    "brand": "Mexx"
+  },
+  {
+    "product_name": "Kerstblazer",
+    "brand": "Kerstblazer"
+  },
+  {
+    "product_name": "Brabantia airfryer BBEK1138",
+    "brand": "Brabantia"
+  }
+]

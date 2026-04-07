@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Mix 45-87 g.",
+    "brand": "HONIG"
+  },
+  {
+    "product_name": "Bockworsten 6 stuks, 540 g.",
+    "brand": "LANDBECK"
+  },
+  {
+    "product_name": "Spaanse extra olijfolie 3 Liter",
+    "brand": "TESOROS DEL SUR"
+  },
+  {
+    "product_name": "Jus OP=OP. 18-29 g.",
+    "brand": "MAGGI"
+  },
+  {
+    "product_name": "Rookworst pittig of kip OP=OP. 275 g.",
+    "brand": "UNOX"
+  },
+  {
+    "product_name": "Tonijn in pikante saus 185 g.",
+    "brand": "ALMARE SEAFOOD"
+  },
+  {
+    "product_name": "Gerookte sprot 160 g.",
+    "brand": "ALMARE SEAFOOD"
+  },
+  {
+    "product_name": "Bananen",
+    "brand": "None"
+  },
+  {
+    "product_name": "Gele kiwi's 500 G",
+    "brand": "None"
+  },
+  {
+    "product_name": "Granaatappel",
+    "brand": "None"
+  },
+  {
+    "product_name": "Citroenen 500 G",
+    "brand": "None"
+  },
+  {
+    "product_name": "Frambozen 125 G",
+    "brand": "None"
+  },
+  {
+    "product_name": "Grapefruits 3-PACK",
+    "brand": "None"
+  },
+  {
+    "product_name": "2-laags keukenpapier 4 rollen",
+    "brand": "SOLO"
+  },
+  {
+    "product_name": "Neusinhaler",
+    "brand": "LUCOVITAAL"
+  },
+  {
+    "product_name": "Zakdoekjes en tissues OP=OP. 8 pakjes/48-72 stuks. Per stuk 1.00.",
+    "brand": "KLEENEX"
+  },
+  {
+    "product_name": "Spa celebration hand + body travelset",
+    "brand": "LACURA"
+  },
+  {
+    "product_name": "5-pack etherische oli\u00ebn 5x10 ml.",
+    "brand": "HOME CREATION"
+  },
+  {
+    "product_name": "48-pack kattenvoer in saus OP=OP. 48x100 g.",
+    "brand": "CACHE T"
+  },
+  {
+    "product_name": "Tandpasta 1-2-3 fresh mint 75 ml. Per stuk 1.50.",
+    "brand": "ORAL-B"
+  },
+  {
+    "product_name": "Hondenkoekjes 1.3 kg.",
+    "brand": "ROMEO"
+  },
+  {
+    "product_name": "BB cream 30 ml",
+    "brand": "LACURA"
+  },
+  {
+    "product_name": "Wild roots hondensnack 150 g.",
+    "brand": "ROMEO"
+  },
+  {
+    "product_name": "Garnalenkroketjes Inhoud: 6 stuks, 240 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Bladerdeeghapjes Mozzarella-tomaat, zalm-spinazie of ham-kaas. 15 stuks.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Spicy kip- of oude kaas bitterballen Inhoud: 12 stuks, 300 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Mini-loempia's eend & hoisin Inhoud: 12 stuks, 216 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Toast Cups naturel, krokant fijn gekruid of ovaal sesam. 100-150 g.",
+    "brand": "SUN SNACKS"
+  },
+  {
+    "product_name": "2-pack focaccia's Knoflook-mozzarella of paprika-olijf.",
+    "brand": "MAMA MANCINI"
+  },
+  {
+    "product_name": "Stokbrood Ovenvers. Per stuk.",
+    "brand": "WEINIG VEZELS"
+  },
+  {
+    "product_name": "Gevulde brie bieslook 180 g.",
+    "brand": null
+  },
+  {
+    "product_name": "Engelse cheddarkaas 200 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Roomkaas 90 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Porto Lagarada, 10 jaar oud, Portugal 0.75 l.",
+    "brand": "Porto Lagarada"
+  },
+  {
+    "product_name": "Gran Livenza Cava Brut piccolo, Spanje 0.2 l.",
+    "brand": "Gran Livenza"
+  },
+  {
+    "product_name": "Craftbier Neipa of IPA. 33 cl.",
+    "brand": "Schultenbr\u00e4u"
+  },
+  {
+    "product_name": "Craftbier Naipa, juicy blond of tropical tripel. 33 cl.",
+    "brand": "Schultenbr\u00e4u"
+  },
+  {
+    "product_name": "Borrelblokjes 48+ belegen of oud 175 g.",
+    "brand": "Nederlandse"
+  },
+  {
+    "product_name": "Borrelnoten Oriental, Proven\u00e7ale of cocktail. 300 g.",
+    "brand": "TRADER JOE'S"
+  },
+  {
+    "product_name": "Italiaanse antipastischotel 100 g.",
+    "brand": "CUCINA"
+  },
+  {
+    "product_name": "Tortillachips Nacho cheese, cool cream of sweet chili. 200 g.",
+    "brand": "SUN SNACKS"
+  },
+  {
+    "product_name": "Truffelsalami met Parmezaanse kaas 70 g.",
+    "brand": "Truffelsalami"
+  },
+  {
+    "product_name": "Schuimrolgebak Frambozen-hazelnoot of toffee-karamel. 400 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Vanillemokka-ijstaart 1500 ml.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Cheesecake Irish cream 2x80 g.",
+    "brand": "MILSANI"
+  },
+  {
+    "product_name": "Dessertkoekjes 174 g.",
+    "brand": "BISCOTTO"
+  },
+  {
+    "product_name": "Hertenbiefstuk 400 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Struisvogelbiefstuk 300 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Selected Harvest, Portugal 0.75 l.",
+    "brand": "Adega de Peg\u00f5es"
+  },
+  {
+    "product_name": "Truffelmayonaise 220 ml.",
+    "brand": "GOURMET"
+  }
+]

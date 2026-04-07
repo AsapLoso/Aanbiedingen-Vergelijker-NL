@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Ovengebakken schouderham Pak 100 gram.",
+    "brand": "1 de Beste"
+  },
+  {
+    "product_name": "Maaslander of Old Amsterdam kaasplakken Alle varianten (m.u.v. geitenkaas). Pak 100-150 gram.",
+    "brand": "Maaslander, Old Amsterdam"
+  },
+  {
+    "product_name": "Alle varianten (m.u.v. light en vegan). Kuip 90 - 185 ml.",
+    "brand": "Paturain"
+  },
+  {
+    "product_name": "Bami of nasi speciaal Bak 450 gram. OP=OP",
+    "brand": "Padifood"
+  },
+  {
+    "product_name": "Salade Luxe ei, rundvlees of zalm. Schotel 200 gram.",
+    "brand": "Westland"
+  },
+  {
+    "product_name": "Sap Alle varianten. Pak 1 liter.",
+    "brand": "Healthy People"
+  },
+  {
+    "product_name": "Gevulde verse pasta Paddenstoel & mozzarella, Parmezaanse kaas & truffel of basilicum & provolone kaas. Pak 250 gram.",
+    "brand": "Daily Chef"
+  },
+  {
+    "product_name": "Alle varianten. Fles 300 ml, kuip 200 gram of reep 45 gram.",
+    "brand": "HIPRO"
+  },
+  {
+    "product_name": "hoekje Alle varianten. Kuip 150 gram.",
+    "brand": "Almhof"
+  },
+  {
+    "product_name": "Alle varianten. Bak 450 of 500 gram, pak 1 liter of fles 330 ml.",
+    "brand": "Optimel"
+  },
+  {
+    "product_name": "Mexx pantoffels In diverse kleuren. Maten 37 t/m 45.",
+    "brand": "Mexx"
+  },
+  {
+    "product_name": "DIRK-STUNT",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Kerstblazer In 3 dessins. Maten M t/m XL.",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "KERSTDEAL",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Page toiletpapier",
+    "brand": "Page"
+  },
+  {
+    "product_name": "Gold oploskoffie Pot 200 gram",
+    "brand": "Nescaf\u00e9"
+  },
+  {
+    "product_name": "pap Alle varianten. Pak 1 liter",
+    "brand": "Melkunie"
+  },
+  {
+    "product_name": "Dubai chocolade Reep 100 gram",
+    "brand": "Bolci"
+  },
+  {
+    "product_name": "Flamin' Hot Zak 160 gram",
+    "brand": "Doritos"
+  },
+  {
+    "product_name": "Remia saus Alle varianten. Statube 500 ml.",
+    "brand": "Remia"
+  },
+  {
+    "product_name": "Heineken pils Blik 25 cl. OP=OP",
+    "brand": "Heineken"
+  },
+  {
+    "product_name": "Dove deodorant Original, Clean Comfort, Extra Fresh of Go Fresh. Bus 150 ml.",
+    "brand": "Dove"
+  },
+  {
+    "product_name": "Page Zacht & Sterk Per voordeelpak. 18 ROLLEN",
+    "brand": "Page"
+  },
+  {
+    "product_name": "Bolletje crackers Alle varianten. Pak 190 - 270 gram.",
+    "brand": "Bolletje"
+  },
+  {
+    "product_name": "Chocomel, Fristi of Optimel Alle varianten. 6-pack \u00e0 200 ml.",
+    "brand": "Chocomel, Fristi, Optimel"
+  },
+  {
+    "product_name": "Iglo Kapiteins Klassiekers, Viskraam of Fish & Fun Alle varianten. Pak 224 - 300 gram.",
+    "brand": "Iglo"
+  },
+  {
+    "product_name": "Wagner Sensazione pizza Alle varianten. Per stuk.",
+    "brand": "Wagner"
+  },
+  {
+    "product_name": "Princes tonijnstukken In water of zonnebloemolie. Blik 145 gram.",
+    "brand": "Princes"
+  },
+  {
+    "product_name": "Knorr maaltijdmix of soep Alle varianten. Per stuk 30-100 gram.",
+    "brand": "Knorr"
+  },
+  {
+    "product_name": "Alle varianten. Pot 515 - 535 gram.",
+    "brand": "Chicken Tonight"
+  },
+  {
+    "product_name": "Kesbeke tafelzuren Alle varianten. Pot 330 - 675 gram.",
+    "brand": "Kesbeke"
+  },
+  {
+    "product_name": "Alle varianten. Pak 3, 6 of 8 stuks of 25 gram.",
+    "brand": "Bifi of Jack Link's"
+  },
+  {
+    "product_name": "Daim, Oreo of Milka ijs Beker 425 ml. OP=OP",
+    "brand": "Daim, Oreo of Milka"
+  },
+  {
+    "product_name": "Fruitbiscuits 5-Pack",
+    "brand": "Sultana"
+  },
+  {
+    "product_name": "Originals koek Pak 150-250 gram",
+    "brand": "Verkade"
+  },
+  {
+    "product_name": "koffiecups Pak 10 stuks",
+    "brand": "Starbucks"
+  },
+  {
+    "product_name": "chocoladeletters of harten Per stuk 135 gram",
+    "brand": "Verkade"
+  },
+  {
+    "product_name": "thee Pak 20 stuks",
+    "brand": "Clipper"
+  },
+  {
+    "product_name": "Fles 400 of 500 ml.",
+    "brand": "Coca-Cola, Fanta, Sprite, Fuze tea, Aquarius of Powerade"
+  },
+  {
+    "product_name": "10-PACK",
+    "brand": "Capri-Sun"
+  },
+  {
+    "product_name": "Pak 1.5 liter.",
+    "brand": "Dubbelfrisss Boost"
+  },
+  {
+    "product_name": "Fles 1 liter.",
+    "brand": "Pepsi, Royal Club of Rivella"
+  },
+  {
+    "product_name": "Alle varianten. Zak 150- 185 gram",
+    "brand": "Lay's MAX"
+  },
+  {
+    "product_name": "4-pack fles \u00e0 33 cl",
+    "brand": "Pauwel Kwak of Karmeliet"
+  },
+  {
+    "product_name": "6-pack fles \u00e0 30 cl",
+    "brand": "Affligem"
+  },
+  {
+    "product_name": "6-pack blik \u00e0 33 cl",
+    "brand": "Amstel pils of Warsteiner 0.0"
+  },
+  {
+    "product_name": "Traditiegetrouw PILSENER 6-pack",
+    "brand": "Amstel"
+  },
+  {
+    "product_name": "Krat 24 flessen \u00e0 30 cl",
+    "brand": "Hertog Jan"
+  },
+  {
+    "product_name": "Krat 24 flessen \u00e0 30 cl",
+    "brand": "Warsteiner"
+  },
+  {
+    "product_name": "Appassimento Puglia IGP Fles 75 cl.",
+    "brand": "Camelia"
+  }
+]

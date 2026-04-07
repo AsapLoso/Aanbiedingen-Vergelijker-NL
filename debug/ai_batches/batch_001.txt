@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Alle Becel bak- en braadproducten en kuipen",
+    "brand": "Becel"
+  },
+  {
+    "product_name": "Alle AH Scharrel-kipovenschotels of -traybakes Bijv. kipfilet piri piri Per 650 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "stoofvlees",
+    "brand": "AH Greenfields"
+  },
+  {
+    "product_name": "beefburgers 2 stuks",
+    "brand": "AH Greenfields"
+  },
+  {
+    "product_name": "Spek- en hamreepjes en -blokjes",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Bijv. falafel",
+    "brand": "Garden Gourmet"
+  },
+  {
+    "product_name": "550-720 gram",
+    "brand": "Hak"
+  },
+  {
+    "product_name": "Mini krieltjes 450 gram en bakaardappeltjes 500 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Gerookte zalm 100 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Maaltijdsalades",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Hollandse keuken 3-vaks-maaltijden",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Jan pannenkoeken naturel 2 pakken \u00e0 10 stuks",
+    "brand": "Jan en OaYeah!"
+  },
+  {
+    "product_name": "Alle Beemster van de zelfbedieningsafdeling 125-150 gram",
+    "brand": "Beemster"
+  },
+  {
+    "product_name": "Alle AH Scharrelkipfilet vleeswaren van de versafdeling",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Hummus en salades 125-175 gram van de versafdeling",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Paturain 90-185 gram Bijv. knoflook Pak 90 gram",
+    "brand": "Paturain"
+  },
+  {
+    "product_name": "Eru 100 gram",
+    "brand": "Eru"
+  },
+  {
+    "product_name": "Danio 450 gram",
+    "brand": "Danio"
+  },
+  {
+    "product_name": "Activia Bijv. muesli Set 4 stuks \u00e0 125 gram",
+    "brand": "Activia"
+  },
+  {
+    "product_name": "Bonne Maman broodbeleg 325-370 gram",
+    "brand": "Bonne Maman"
+  },
+  {
+    "product_name": "Ben & Jerry's cookie dough 2 pints \u00e1 465 ml",
+    "brand": "Ben & Jerry's, Magnum"
+  },
+  {
+    "product_name": "1-kops thee 15-20 stuks",
+    "brand": "Pickwick"
+  },
+  {
+    "product_name": "Quaker Cruesli en granola 375-450 gram",
+    "brand": "Quaker"
+  },
+  {
+    "product_name": "Alle Campina zuivel gekoeld",
+    "brand": "Campina"
+  },
+  {
+    "product_name": "Alle L'OR capsules voor Nespresso 20 stuks",
+    "brand": "L'OR"
+  },
+  {
+    "product_name": "Alle koffiebonen 250-500 gram Bijv. Perla Huisblends aroma rood 2 zakken \u00e0 500 gram",
+    "brand": "Lavazza, Perla, Illy"
+  },
+  {
+    "product_name": "Alle Perla snelfiltermaling Bijv. Huisblends aroma rood 2 pakken \u00e0 500 gram",
+    "brand": "Perla"
+  },
+  {
+    "product_name": "Nongshim Shin ramyun noodles 2 zakjes \u00e0 120 gram",
+    "brand": "Nongshim en Nissin"
+  },
+  {
+    "product_name": "polpa fijne tomatenpulp 2 blikken \u00e0 425 ml",
+    "brand": "Mutti"
+  },
+  {
+    "product_name": "kroepoek",
+    "brand": "Conimex"
+  },
+  {
+    "product_name": "Oven & airfryer snacks 2-8 stuks",
+    "brand": "Mora en Van Dobben"
+  },
+  {
+    "product_name": "Haribo 175-260 gram",
+    "brand": "Haribo"
+  },
+  {
+    "product_name": "chocolonely repen 180 gram",
+    "brand": "Tony's chocolonely"
+  },
+  {
+    "product_name": "Ariel en Lenor",
+    "brand": "Ariel en Lenor"
+  },
+  {
+    "product_name": "Chocoladeletter melk, melk hazelnoot, wit of puur Pak 135 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Schoenpoen Pak 8 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Kruidnoten Zak 500 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Taaitaai Zak 500 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Sint schuimpjes Zak 300 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "chocolade munten Zakje 150 gram",
+    "brand": "Gouden"
+  },
+  {
+    "product_name": "Strooigoed Zak 1 kilogram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Chocolademelk classic Pak 1 liter",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Bakkers-speculaas Pak 600 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Speculaas variantjes met banketspijs Pak 240 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Gevuld speculaas met banketspijs Pak 240 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Amandel-speculaas Pak 400 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Roomboter amandelstaaf Pak 250 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Slagroom Spuitbus 250 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Ganzenbord of Pisa hamster",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Jan van Haasteren puzzel",
+    "brand": "AH Jan van Haasteren"
+  }
+]

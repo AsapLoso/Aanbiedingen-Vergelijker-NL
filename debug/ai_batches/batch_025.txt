@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Alle soorten",
+    "brand": "Kogelbiefstuk"
+  },
+  {
+    "product_name": "achterham of snijworst 200 gram",
+    "brand": "Kipfilet"
+  },
+  {
+    "product_name": "focaccia",
+    "brand": "Mediterraneo"
+  },
+  {
+    "product_name": "Pak van 125 gram",
+    "brand": "Carpaccio"
+  },
+  {
+    "product_name": "Alle soorten van 200 gram",
+    "brand": "Eru"
+  },
+  {
+    "product_name": "Alle soorten",
+    "brand": "Healthy People"
+  },
+  {
+    "product_name": "poffertjes of kruidnoot poffertjes",
+    "brand": "Jan"
+  },
+  {
+    "product_name": "Alle soorten",
+    "brand": "Vitalu"
+  },
+  {
+    "product_name": "1-kops thee",
+    "brand": "Pickwick"
+  },
+  {
+    "product_name": "koffiebonen 500 gram",
+    "brand": "Caf\u00e9 Nova"
+  },
+  {
+    "product_name": "oploskoffie of Senseo koffiepads",
+    "brand": "Douwe Egberts"
+  },
+  {
+    "product_name": "koffiecapsules",
+    "brand": "Barzini"
+  },
+  {
+    "product_name": "Bifi Alle pakken van 5 stuks",
+    "brand": "Bifi"
+  },
+  {
+    "product_name": "B'tween Alle soorten",
+    "brand": "B'tween"
+  },
+  {
+    "product_name": "M&M's of Maltesers Alle zakken van 273 - 400 gram",
+    "brand": "M&M's"
+  },
+  {
+    "product_name": "KitKat, Lion of Nuts Alle pakken van 4, 5 of 6 stuks",
+    "brand": "KitKat"
+  },
+  {
+    "product_name": "M\u00f6venpick Alle bakken van 900 ml",
+    "brand": "M\u00f6venpick"
+  },
+  {
+    "product_name": "Lindt Excellence Alle repen van 100 gram",
+    "brand": "Lindt"
+  },
+  {
+    "product_name": "Slimpie Alle flessen van 0.65 liter",
+    "brand": "Slimpie"
+  },
+  {
+    "product_name": "Appelsientje, Taksi of DubbelFrisss Alle pakken met 6 of 10 pakjes van 0.2 liter",
+    "brand": "Appelsientje, Taksi of DubbelFrisss"
+  },
+  {
+    "product_name": "Lay's Hamka's, Cheetos, Pomtips, Ringlings of Mama Mia Alle zakken van 100 - 125 gram",
+    "brand": "Lay's"
+  },
+  {
+    "product_name": "Tunupa Estate Alle flessen van 0.75 liter",
+    "brand": "Tunupa Estate"
+  },
+  {
+    "product_name": "Jack Rabbit Alle flessen van 0.75 liter",
+    "brand": "Jack Rabbit"
+  },
+  {
+    "product_name": "Grand Sud of Tor del Colle Alle flessen van 0.75 liter",
+    "brand": "Grand Sud of Tor del Colle"
+  },
+  {
+    "product_name": "Dubbel Drank of Maaza Alle pakken van 1 liter",
+    "brand": "Dubbel Drank of Maaza"
+  },
+  {
+    "product_name": "Tripel Karmeliet, Affligem of Corona Alle pakken met 4 of 6 blikjes of flesjes van 0.3 - 0.5 liter",
+    "brand": "Tripel Karmeliet, Affligem of Corona"
+  },
+  {
+    "product_name": "Hertog Jan, Warsteiner of Jupiler pils Alle pakken met 6 flesjes of blikjes van 0.25 - 0.5 liter",
+    "brand": "Hertog Jan, Warsteiner of Jupiler pils"
+  },
+  {
+    "product_name": "Leffe of Corona Alle dozen met 12 flesjes van 0.33 liter",
+    "brand": "Leffe of Corona"
+  },
+  {
+    "product_name": "Tripel Karmeliet",
+    "brand": "Tripel Karmeliet"
+  },
+  {
+    "product_name": "Dubbel Drank",
+    "brand": "Dubbel Drank"
+  },
+  {
+    "product_name": "Smuldier Alle soorten",
+    "brand": "Smuldier"
+  },
+  {
+    "product_name": "Libresse Alle soorten",
+    "brand": "Libresse"
+  },
+  {
+    "product_name": "Sportlife Alle pakken met 4 stuks",
+    "brand": "Sportlife"
+  },
+  {
+    "product_name": "Heineken",
+    "brand": "Heineken"
+  },
+  {
+    "product_name": "Heineken 30 CL",
+    "brand": "Heineken"
+  },
+  {
+    "product_name": "Grolsch",
+    "brand": "Grolsch"
+  },
+  {
+    "product_name": "Birra Moretti 30 cl",
+    "brand": "Birra Moretti"
+  },
+  {
+    "product_name": "Heineken, Heineken 0.0, Grolsch of Birra Moretti Alle kratten met 24 flesjes van 0.3 liter",
+    "brand": "Heineken"
+  },
+  {
+    "product_name": "Hartevelt 1.5 LITER",
+    "brand": "Hartevelt"
+  },
+  {
+    "product_name": "Hoppe 1.5 LITER",
+    "brand": "Hoppe"
+  },
+  {
+    "product_name": "Malibu 1.5 LITER",
+    "brand": "Malibu"
+  },
+  {
+    "product_name": "Grant's 1.5 LITER",
+    "brand": "Grant's"
+  },
+  {
+    "product_name": "Disaronno 1.5 LITER",
+    "brand": "Disaronno"
+  },
+  {
+    "product_name": "The Famous Grouse 1.5 LITER",
+    "brand": "The Famous Grouse"
+  },
+  {
+    "product_name": "J\u00e4germeister 1.75 LITER",
+    "brand": "J\u00e4germeister"
+  },
+  {
+    "product_name": "Smirnoff 1.5 LITER",
+    "brand": "Smirnoff"
+  },
+  {
+    "product_name": "Captain Morgan 1.5 LITER",
+    "brand": "Captain Morgan"
+  },
+  {
+    "product_name": "Baileys 1.5 LITER",
+    "brand": "Baileys"
+  },
+  {
+    "product_name": "Ballantine's 1.5 LITER",
+    "brand": "Ballantine's"
+  },
+  {
+    "product_name": "Johnnie Walker Red Label 1.75 LITER",
+    "brand": "Johnnie Walker"
+  }
+]

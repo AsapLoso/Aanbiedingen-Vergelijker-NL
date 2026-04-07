@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Haricots verts met spek 240 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Aardappelnootjes 1 kg.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Stoofpotje Rundvlees, kip of vega. 390 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Soep Mosterd, knolselderij of ossenstaart. 570 ml.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Culinaire saus Champignon, peperroom, rode wijn of dille-witte wijn. 200 ml.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Gestoofde peertjes Met karamel. 560 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Gestoofde appeltjes Met kaneel. 520 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Veenbessencompote 400 g.",
+    "brand": "GOURMET"
+  },
+  {
+    "product_name": "Snacktomaten",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Eetrijpe avocado's",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Witlof 500 G",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Kakifruit 1 KG",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Spruiten Geschoond 350 G",
+    "brand": "DAYLICIOUS"
+  },
+  {
+    "product_name": "Pyro fountain box",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Pyro partyset",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Bombommetjes",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Mix it up",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Knettersticks",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Vuurwerkmeter",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Knetter king",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Knetterrotjes",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Bengaalse sterren Extra lang brandende Bengaalse sterren. Per set.",
+    "brand": "COLOR WONDERLIGHTS"
+  },
+  {
+    "product_name": "Knetterkogels Lekker stoken met deze papieren knetterballen.",
+    "brand": null
+  },
+  {
+    "product_name": "Vuurwerkbril Gebruik altijd een vuur-werkbril, ook als je staat te kijken. Per stuk.",
+    "brand": null
+  },
+  {
+    "product_name": "Aansteeklonten De veilige manier voor het afsteken van vuurwerk.",
+    "brand": null
+  },
+  {
+    "product_name": "Geurparels Pink blossom of blue freshness",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "Wascapsules Kleur of wit. 20 wasbeurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "Compact wasmiddel wit 28 was-beurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "Vloeibaar wasmiddel wit 20 was-beurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "Vloeibaar wasmiddel kleur",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "Vloeibaar wasmiddel zwart",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "Wasmiddel wol & fijn",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "Wasverzachter Aardbei & magnolia of nectar & blossom.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "Compact wasmiddel kleur",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "Vloeibaar wasmiddel Kleur of wit. 40 wasbeurten.",
+    "brand": "TANDIL"
+  },
+  {
+    "product_name": "Appels",
+    "brand": "ROYAL GALA"
+  },
+  {
+    "product_name": "Rode kool",
+    "brand": "None"
+  },
+  {
+    "product_name": "Krokante kabeljauwschnitzels Inhoud: 4 stuks, 360 g",
+    "brand": "None"
+  },
+  {
+    "product_name": "Gemarineerde tomaten of sweet peppers 120 g.",
+    "brand": "Gemarineerde"
+  },
+  {
+    "product_name": "Super smoothie OP=OP. 300 ml.",
+    "brand": "INNOCENT"
+  },
+  {
+    "product_name": "Halve appel-rastervlaai Per stuk.",
+    "brand": "Halve"
+  },
+  {
+    "product_name": "Jam OP=OP. 325-350 g.",
+    "brand": "HERO"
+  },
+  {
+    "product_name": "Good noodles OP=OP. 70-75 g.",
+    "brand": "UNOX"
+  },
+  {
+    "product_name": "Piccalilly 690 g.",
+    "brand": "K\u00dcHNE"
+  },
+  {
+    "product_name": "Soep 570 ml.",
+    "brand": "ASIA GREEN GARDEN"
+  },
+  {
+    "product_name": "Mini-crackers 250 g.",
+    "brand": "LU"
+  },
+  {
+    "product_name": "Chips OP=OP. 130-170 g.",
+    "brand": "CHIO"
+  },
+  {
+    "product_name": "Kinder Surprise hart 53 g.",
+    "brand": "KINDER"
+  },
+  {
+    "product_name": "Snoep 150-200 g.",
+    "brand": "HARIBO"
+  },
+  {
+    "product_name": "Snoep 400-410 g.",
+    "brand": "KATJA"
+  }
+]

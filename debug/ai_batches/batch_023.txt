@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Bolci Dubai chocolade Reep 100 gram.",
+    "brand": "Bolci"
+  },
+  {
+    "product_name": "Doritos Flamin' Hot Zak 160 gram.",
+    "brand": "Doritos"
+  },
+  {
+    "product_name": "Remia saus 500 ml",
+    "brand": "Remia"
+  },
+  {
+    "product_name": "Heineken pils",
+    "brand": "Heineken"
+  },
+  {
+    "product_name": "Dove deodorant Bus 150 ml",
+    "brand": "Dove"
+  },
+  {
+    "product_name": "Page Zacht & Sterk",
+    "brand": "Page"
+  },
+  {
+    "product_name": "Bolletje crackers Pak 190 - 270 gram",
+    "brand": "Bolletje"
+  },
+  {
+    "product_name": "Chocomel, Fristi of Optimel 6-pack \u00e0 200 ml",
+    "brand": "Chocomel, Fristi of Optimel"
+  },
+  {
+    "product_name": "Wagner Sensazione pizza Per stuk",
+    "brand": "Wagner"
+  },
+  {
+    "product_name": "Princes tonijnstukken Blik 145 gram",
+    "brand": "Princes"
+  },
+  {
+    "product_name": "Knorr KIPPEN SOEP",
+    "brand": "Knorr"
+  },
+  {
+    "product_name": "Chicken Tonight 515 - 535 gram",
+    "brand": "Chicken Tonight"
+  },
+  {
+    "product_name": "Kesbeke tafelzuren 330 - 675 gram",
+    "brand": "Kesbeke"
+  },
+  {
+    "product_name": "Bifi of Jack Link's 3, 6 of 8 stuks of 25 gram",
+    "brand": "Bifi of Jack Link's"
+  },
+  {
+    "product_name": "Daim, Oreo of Milka ijs 425 ml",
+    "brand": "Daim, Oreo of Milka"
+  },
+  {
+    "product_name": "Sultana Fruitbiscuits",
+    "brand": "Sultana"
+  },
+  {
+    "product_name": "Verkade originals koek",
+    "brand": "Verkade"
+  },
+  {
+    "product_name": "Verkade chocoladeletters of harten 135 gram",
+    "brand": "Verkade"
+  },
+  {
+    "product_name": "Starbucks koffiecups",
+    "brand": "Starbucks"
+  },
+  {
+    "product_name": "Clipper thee 20 stuks",
+    "brand": "Clipper"
+  },
+  {
+    "product_name": "Coca-Cola, Fanta, Sprite, Fuze tea, Aquarius of Powerade Fles 400 of 500 ml.",
+    "brand": "Coca-Cola"
+  },
+  {
+    "product_name": "Capri-Sun",
+    "brand": "Capri-Sun"
+  },
+  {
+    "product_name": "Dubbelfrisss Boost Pak 1.5 liter",
+    "brand": "Dubbelfrisss"
+  },
+  {
+    "product_name": "Pepsi, Royal Club of Rivella Fles 1 liter.",
+    "brand": "Pepsi, Royal Club of Rivella"
+  },
+  {
+    "product_name": "Lay's MAX Zak 150- 185 gram.",
+    "brand": "Lay's"
+  },
+  {
+    "product_name": "Pauwel Kwak of Karmeliet 4-pack fles \u00e0 33 cl.",
+    "brand": "Pauwel Kwak of Karmeliet"
+  },
+  {
+    "product_name": "Affligem 6-pack fles \u00e0 30 cl.",
+    "brand": "Affligem"
+  },
+  {
+    "product_name": "Amstel pils of Warsteiner 0.0 6-pack blik \u00e0 33 cl.",
+    "brand": "Amstel"
+  },
+  {
+    "product_name": "Hertog Jan of Warsteiner Krat 24 flessen \u00e0 30 cl.",
+    "brand": "Hertog Jan"
+  },
+  {
+    "product_name": "Camelia Appassimento Puglia IGP Fles 75 cl.",
+    "brand": "Camelia"
+  },
+  {
+    "product_name": "Corte Fresca Pinot Grigio, Pinot Grigio ros\u00e9 Fles 75 cl.",
+    "brand": "Corte Fresca"
+  },
+  {
+    "product_name": "Barefoot Butterfly Chardonnay, Malbec, Pinot Grigio, Pink Pinot Grigio Fles 75 cl.",
+    "brand": "Barefoot"
+  },
+  {
+    "product_name": "Stoney Creek \u2022 Shiraz Grenache Petit Verdot \u2022 Chardonnay Semillon \u2022 Pinot Grigio Fles 75 cl.",
+    "brand": "Stoney Creek"
+  },
+  {
+    "product_name": "Smirnoff Vodka",
+    "brand": "Smirnoff"
+  },
+  {
+    "product_name": "Baileys Irish Cream",
+    "brand": "Baileys"
+  },
+  {
+    "product_name": "Malibu Coconut Rum",
+    "brand": "Malibu"
+  },
+  {
+    "product_name": "Absolut Vodka Blue 70 cl",
+    "brand": "Absolut"
+  },
+  {
+    "product_name": "The Glenlivet Founder's Reserve 70 cl",
+    "brand": "The Glenlivet"
+  },
+  {
+    "product_name": "Hartevelt Jenever Hele liter",
+    "brand": "Hartevelt"
+  },
+  {
+    "product_name": "Kahl\u00faa Likeur 70 cl",
+    "brand": "Kahl\u00faa"
+  },
+  {
+    "product_name": "Spiced Rum 1.5 liter",
+    "brand": "Bacardi"
+  },
+  {
+    "product_name": "Rum Carta Blanca 1.5 liter",
+    "brand": "Bacardi"
+  },
+  {
+    "product_name": "Whisky 1.5 liter",
+    "brand": "Glen Talloch"
+  },
+  {
+    "product_name": "Limoncello 70 cl",
+    "brand": "Villa Massa"
+  },
+  {
+    "product_name": "Vieux Hele liter",
+    "brand": "Dujardin"
+  },
+  {
+    "product_name": "Blended Scotch Whisky",
+    "brand": "Ballantine's"
+  },
+  {
+    "product_name": "Originale",
+    "brand": "Disaronno"
+  },
+  {
+    "product_name": "Sauvignon",
+    "brand": "Marqu\u00e9s Mej\u00eda"
+  },
+  {
+    "product_name": "Appassimento",
+    "brand": "PICCINI"
+  },
+  {
+    "product_name": "Ginger Ale 0% HELE LITER",
+    "brand": "Royal Club"
+  }
+]

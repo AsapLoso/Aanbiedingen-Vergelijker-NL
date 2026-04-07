@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Alpina braadpan",
+    "brand": "Alpina"
+  },
+  {
+    "product_name": "Alpina grillplaat",
+    "brand": "Alpina"
+  },
+  {
+    "product_name": "Pyrex Cook & Click glazen ovenschaal 800 ML",
+    "brand": "Pyrex"
+  },
+  {
+    "product_name": "Pyrex Cook & Click glazen ovenschaal 2 LITER",
+    "brand": "Pyrex"
+  },
+  {
+    "product_name": "Pyrex Cook & Click glazen ovenschaal 3.5 LITER",
+    "brand": "Pyrex"
+  },
+  {
+    "product_name": "Brabantia magnetron met grillfunctie BBEK1145DG",
+    "brand": "Brabantia"
+  },
+  {
+    "product_name": "Nintendo Switch spel",
+    "brand": "Nintendo"
+  },
+  {
+    "product_name": "Hello Kitty of Harry Potter knuffel",
+    "brand": "Hello Kitty"
+  },
+  {
+    "product_name": "Goliath The Chuck Pinson puzzel",
+    "brand": "Goliath"
+  },
+  {
+    "product_name": "Cluedo spel",
+    "brand": "Hasbro"
+  },
+  {
+    "product_name": "Energizer ledlamp",
+    "brand": "Energizer"
+  },
+  {
+    "product_name": "Bon Giorno kussenbeschermer",
+    "brand": "Bon Giorno"
+  },
+  {
+    "product_name": "Philips LongLife batterijen AA of AAA",
+    "brand": "Philips"
+  },
+  {
+    "product_name": "Ten Cate badmat",
+    "brand": "Ten Cate"
+  },
+  {
+    "product_name": "Ten Cate washand",
+    "brand": "Ten Cate"
+  },
+  {
+    "product_name": "Ten Cate baddoek",
+    "brand": "Ten Cate"
+  },
+  {
+    "product_name": "Aroma geurblokjes kadoset",
+    "brand": "Aroma"
+  },
+  {
+    "product_name": "Oral-B opzetborstels Cross action",
+    "brand": "Oral-B"
+  },
+  {
+    "product_name": "Werken bij Dirk!",
+    "brand": "Dirk"
+  },
+  {
+    "product_name": "Hutspot of Poldergoud geschilde stamppot aardappelen Zak 500 gram of 1 kilo",
+    "brand": "Poldergoud"
+  },
+  {
+    "product_name": "Hollandse Elstar appels",
+    "brand": "Hollandse"
+  },
+  {
+    "product_name": "Groene salade Caesar of komkommer farmer",
+    "brand": "farmer"
+  },
+  {
+    "product_name": "BIO+ rode kool met appel Zak 500 gram.",
+    "brand": "BIO+"
+  },
+  {
+    "product_name": "Avocado's ready to eat Schaal 2 stuks.",
+    "brand": "Avocado"
+  },
+  {
+    "product_name": "Mandarijnen Per net.",
+    "brand": "Mandarijnen"
+  },
+  {
+    "product_name": "Broccoli Los.",
+    "brand": "Broccoli"
+  },
+  {
+    "product_name": "Snijbonen Per zak.",
+    "brand": "Snijbonen"
+  },
+  {
+    "product_name": "Vier sint met FAIRTRADE artikelen",
+    "brand": "FAIRTRADE"
+  },
+  {
+    "product_name": "Ribkarbonade",
+    "brand": "Vleeschmeesters"
+  },
+  {
+    "product_name": "Marine style filet of sensational chipolata worsten 180 gram",
+    "brand": "Garden Gourmet"
+  },
+  {
+    "product_name": "Kipdrumsticks Naturel 450 gram",
+    "brand": "Vleeschmeesters"
+  },
+  {
+    "product_name": "sint speculooskoeken Bak 270 gram",
+    "brand": "Crumbel"
+  },
+  {
+    "product_name": "Speculaas gevulde koeken",
+    "brand": "Bakkerij"
+  },
+  {
+    "product_name": "Mini rozijnenbollen Zak 9 stuks",
+    "brand": "Bakkerij"
+  },
+  {
+    "product_name": "Ronde kaassuisse of ham-kaas croissant",
+    "brand": "Bakkerij"
+  },
+  {
+    "product_name": "Polders brood",
+    "brand": "Bakkerij"
+  },
+  {
+    "product_name": "Jonge kaas 48+",
+    "brand": "Kaas"
+  },
+  {
+    "product_name": "Grillworst Naturel 125 gram",
+    "brand": "Grillworst"
+  },
+  {
+    "product_name": "Ovengebakken schouderham Pak 100 gram",
+    "brand": "Vlees"
+  },
+  {
+    "product_name": "kaasplakken 100-150 gram",
+    "brand": "Maaslander of Old Amsterdam"
+  },
+  {
+    "product_name": "Alle varianten 90 - 185 ml",
+    "brand": "Paturain"
+  },
+  {
+    "product_name": "bami of nasi speciaal Bak 450 gram",
+    "brand": "Padifood"
+  },
+  {
+    "product_name": "salade 200 gram",
+    "brand": "Westland"
+  },
+  {
+    "product_name": "sap Pak 1 liter",
+    "brand": "Healthy People"
+  },
+  {
+    "product_name": "gevulde verse pasta Pak 250 gram",
+    "brand": "Daily Chef"
+  },
+  {
+    "product_name": "HIPRO Alle varianten. Fles 300 ml, kuip 200 gram of reep 45 gram.",
+    "brand": "HIPRO"
+  },
+  {
+    "product_name": "Almhof hoekje Alle varianten. Kuip 150 gram.",
+    "brand": "Almhof"
+  },
+  {
+    "product_name": "Optimel Alle varianten. Bak 450 of 500 gram, pak 1 liter of fles 330 ml.",
+    "brand": "Optimel"
+  },
+  {
+    "product_name": "Nescaf\u00e9 Gold oploskoffie Pot 200 gram.",
+    "brand": "Nescaf\u00e9"
+  },
+  {
+    "product_name": "Melkunie pap Alle varianten. Pak 1 liter.",
+    "brand": "Melkunie"
+  }
+]

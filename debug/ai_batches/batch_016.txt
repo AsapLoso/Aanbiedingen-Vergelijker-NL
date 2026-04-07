@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "AH Mandarijnen 1 kilo",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Biologisch mandarijnen 750 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Kleinverpakkingen groentegemak",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH 4-persoons gesneden verspakketten",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Elstar appels of conference peren",
+    "brand": "Fruit"
+  },
+  {
+    "product_name": "Alle Pink Lady appels",
+    "brand": "Fruit"
+  },
+  {
+    "product_name": "AH Biologisch pompoen of flespompoen",
+    "brand": "Groente"
+  },
+  {
+    "product_name": "AH Snoepgroente tomaat 500 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Kaki fruit",
+    "brand": "Fruit"
+  },
+  {
+    "product_name": "AH Frambozen 125 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle AH Blauwe bessen",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Biologische bananen",
+    "brand": "Fruit"
+  },
+  {
+    "product_name": "AH Bakkersbrood Les Pains heel",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Roomboter appelflappen",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Speculaas en kruidnoten van de bakkerij",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Biologisch bakkersbrood Batard volkoren heel",
+    "brand": "AH Biologisch"
+  },
+  {
+    "product_name": "AH Tijgerbrood bruin heel",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle AH Scharrel-kipovenschotels of -traybakes",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle AH Greenfields stoofvlees",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle AH Greenfields beefburgers 2 stuks",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle AH Spek- en hamreepjes en -blokjes",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle Garden Gourmet",
+    "brand": "Garden Gourmet"
+  },
+  {
+    "product_name": "Alle Hak 550-720 gram",
+    "brand": "Hak"
+  },
+  {
+    "product_name": "AH Mini krieltjes 450 gram en bakaardappeltjes 500 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Gerookte zalm 100 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Pannenkoeken naturel 2 pakken \u00e0 10 stuks",
+    "brand": "Jan en OaYeah!"
+  },
+  {
+    "product_name": "Extra Belegen 6 Plakken",
+    "brand": "Beemster"
+  },
+  {
+    "product_name": "Oud 6 Plakken",
+    "brand": "Beemster"
+  },
+  {
+    "product_name": "Jong 6 Plakken",
+    "brand": "Beemster"
+  },
+  {
+    "product_name": "Jong Belegen 6 Plakken",
+    "brand": "Beemster"
+  },
+  {
+    "product_name": "Belegen 6 Plakken",
+    "brand": "Beemster"
+  },
+  {
+    "product_name": "Scharrelkipfilet vleeswaren",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Hummus en salades 125-175 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "90-185 gram",
+    "brand": "Paturain"
+  },
+  {
+    "product_name": "Goudkuipje 100 gram",
+    "brand": "Eru"
+  },
+  {
+    "product_name": "450 gram",
+    "brand": "Danio"
+  },
+  {
+    "product_name": "Muesli Set 4 stuks \u00e0 125 gram",
+    "brand": "Activia"
+  },
+  {
+    "product_name": "Broodbeleg 325-370 gram",
+    "brand": "Bonne Maman"
+  },
+  {
+    "product_name": "Magnum pints",
+    "brand": "Ben & Jerry's"
+  },
+  {
+    "product_name": "Cruesli en granola 375-450 gram",
+    "brand": "Quaker"
+  },
+  {
+    "product_name": "Zuivel gekoeld",
+    "brand": "Campina"
+  },
+  {
+    "product_name": "Capsules voor Nespresso 20 stuks",
+    "brand": "L'OR"
+  },
+  {
+    "product_name": "Koffiebonen 250-500 gram",
+    "brand": "Perla"
+  },
+  {
+    "product_name": "Snelfiltermaling",
+    "brand": "Perla"
+  },
+  {
+    "product_name": "Nongshim en Nissin",
+    "brand": "Nongshim"
+  },
+  {
+    "product_name": "Polpa fijne tomatenpulp 2 blikken \u00e0 425 ml",
+    "brand": "Mutti"
+  },
+  {
+    "product_name": "Cassave kroepoek",
+    "brand": "Conimex"
+  },
+  {
+    "product_name": "Oven & airfryer snacks 2-8 stuks",
+    "brand": "Mora"
+  },
+  {
+    "product_name": "175-260 gram",
+    "brand": "Haribo"
+  },
+  {
+    "product_name": "Repen 180 gram",
+    "brand": "Tony's chocolonely"
+  }
+]

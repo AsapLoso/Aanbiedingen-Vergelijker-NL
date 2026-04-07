@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Gouden chocolade munten Zakje 150 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Chocolademelk classic Pak 1 liter",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Bakkers-speculaas Pak 600 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Speculaas variantjes met banketspijs Pak 240 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Gevuld speculaas met banketspijs Pak 240 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Amandel-speculaas Pak 400 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Roomboter amandelstaaf Pak 250 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Slagroom Spuitbus 250 gram",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Ganzenbord of Pisa hamster",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Jan van Haasteren puzzel",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Marsepein fruit",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Chocolade-figuurtjes stoomboot",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Delicata chocoladeletters 135-150 gram",
+    "brand": "Delicata"
+  },
+  {
+    "product_name": "AH Confetti chocoladeletters",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Speculaas-brokken met amandelen",
+    "brand": "AH"
+  },
+  {
+    "product_name": "AH Kruidnoten specials",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Coca-Cola literflessen",
+    "brand": "Coca-Cola"
+  },
+  {
+    "product_name": "Alle Fanta en Sprite literflessen",
+    "brand": "Fanta en Sprite"
+  },
+  {
+    "product_name": "Doritos 160-185 gram",
+    "brand": "Doritos"
+  },
+  {
+    "product_name": "Appelsientje FruitDrink en DubbelFrisss Boost 1-1.5 liter",
+    "brand": "Appelsientje"
+  },
+  {
+    "product_name": "Alle Brouwerij 't IJ, La Chouffe of Duvel multipacks",
+    "brand": "Brouwerij 't IJ"
+  },
+  {
+    "product_name": "Alle Fuze tea 1.25-1.5 liter",
+    "brand": "Fuze tea"
+  },
+  {
+    "product_name": "Alle Hero cassis 1.25-1.5 liter",
+    "brand": "Hero"
+  },
+  {
+    "product_name": "Alle Smint",
+    "brand": "Smint"
+  },
+  {
+    "product_name": "Alle Grolsch, Amstel of Bavaria multipacks of kratten",
+    "brand": "Grolsch"
+  },
+  {
+    "product_name": "Alle Tripel Karmeliet of Leffe multipacks",
+    "brand": "Tripel Karmeliet"
+  },
+  {
+    "product_name": "Alle Spaanse rode wijnen 0.75 liter",
+    "brand": "Spaanse rode wijnen"
+  },
+  {
+    "product_name": "Alle Dove, Axe en Andr\u00e9lon",
+    "brand": "Dove"
+  },
+  {
+    "product_name": "Alle Oral-B elektrisch poetsen Bijv. iO ultimate clean opzet- borstels Pak 4 stuks",
+    "brand": "Oral-B"
+  },
+  {
+    "product_name": "Hollandse lelie en chrysant- mix 2 bossen",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Page toiletpapier compleet schoon 24 rollen en gerecycled 18 rollen 2 pakken",
+    "brand": "Page"
+  },
+  {
+    "product_name": "Alle Dreft Platinum Miracle Bijv. Giga pack Zak 20 stuks",
+    "brand": "Dreft"
+  },
+  {
+    "product_name": "Alle Sun en Finish Bijv. Sun brilliant shine plus 3 zakken \u00e0 16 capsules",
+    "brand": "Sun en Finish"
+  },
+  {
+    "product_name": "Alle Libresse en Tena Bijv. Libresse ultra regular multistyle maandverband 4 pakken \u00e0 10 stuks",
+    "brand": "Libresse en Tena"
+  },
+  {
+    "product_name": "Alle Always Bijv. ultra secure night extra wings 5 pakken \u00e0 8 stuks",
+    "brand": "Always"
+  },
+  {
+    "product_name": "Alle A-merk tissues of zakdoeken*",
+    "brand": "Tempo"
+  },
+  {
+    "product_name": "Alle Lucovitaal Bijv. vitamine D3 25 mcg capsules 2 potten \u00e0 120 stuks",
+    "brand": "Lucovitaal"
+  },
+  {
+    "product_name": "Alle Robijn wasparfums",
+    "brand": "Robijn"
+  },
+  {
+    "product_name": "Alle AH Extra droog & zacht luiers en pants Bijv. luiers maat 2 Pak 18 stuks",
+    "brand": "AH"
+  },
+  {
+    "product_name": "Alle A-merk knijpzakjes baby en kind snacks Bijv. Organix knijpfruit haver, appel, banaan, framboos & bosbes 12m+ 2 zakjes \u00e0 100 gram",
+    "brand": "A-merk"
+  },
+  {
+    "product_name": "Nutrilon 800 gram 2 t/m 5*",
+    "brand": "Nutrilon"
+  },
+  {
+    "product_name": "Ondergoed Bijv. pure comfort maxi medium wit Set 2 stuks",
+    "brand": "sloggi"
+  },
+  {
+    "product_name": "Magazine",
+    "brand": "Libelle"
+  },
+  {
+    "product_name": "Magazine",
+    "brand": "Donald Duck"
+  },
+  {
+    "product_name": "Magazine",
+    "brand": "Margriet"
+  },
+  {
+    "product_name": "Dinner4All Circle +1000 Air Miles",
+    "brand": "PRINCESS"
+  },
+  {
+    "product_name": "Verzilvering van 1 Koopzegel boekje",
+    "brand": "BOSKA"
+  },
+  {
+    "product_name": "Verzilvering van 1 Koopzegel boekje",
+    "brand": "MagnaMinds"
+  },
+  {
+    "product_name": "Puzzel met 40.320 stukjes",
+    "brand": "Disney"
+  },
+  {
+    "product_name": "Slimme verlichte kerstboom 3m",
+    "brand": "hombli"
+  }
+]

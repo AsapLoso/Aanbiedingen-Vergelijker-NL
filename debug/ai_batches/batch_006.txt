@@ -1,0 +1,222 @@
+
+You are a grocery data expert. I will provide a list of products. 
+For each product, please provide:
+1. "standardized_name": A generic, common name for grouping (e.g., "Coca Cola", "Heineken Pilsener", "Broccoli", "Wasmiddel"). Ignore sizes/weights.
+2. "category": Choose ONE from the list below.
+
+Categories:
+- AGF (Aardappelen, Groente, Fruit)
+- Vlees, Vis & Vega
+- Zuivel & Eieren
+- Brood & Ontbijt
+- Voorraadkast
+- Snoep & Snacks
+- Drinken
+- Alcohol
+- Huishouden & Verzorging
+- Diepvries
+- Overige
+
+Input JSON:
+[
+  {
+    "product_name": "Extra vezelrijk volkorenbrood Heel",
+    "brand": "EXTRA"
+  },
+  {
+    "product_name": "Vezelrijke volkorenbollen 6 stuks",
+    "brand": "EXTRA"
+  },
+  {
+    "product_name": "Pompoenpitbroodje Ovenvers. Per stuk.",
+    "brand": "BRON VAN"
+  },
+  {
+    "product_name": "Thee 20 zakjes.",
+    "brand": "CLIPPER"
+  },
+  {
+    "product_name": "Cola regular of zero OP=OP. 33 cl.",
+    "brand": "DR. FOOTS"
+  },
+  {
+    "product_name": "Siroop zero 600 ml.",
+    "brand": "CAPRI-SUN"
+  },
+  {
+    "product_name": "6-pack bier 6x33 cl.",
+    "brand": "HERTOG JAN"
+  },
+  {
+    "product_name": "Hugo winter wild berry 0.75 l.",
+    "brand": "RAVINI"
+  },
+  {
+    "product_name": "4-pack blond 4x33 cl.",
+    "brand": "LA CHOUFFE"
+  },
+  {
+    "product_name": "Wasmiddel 54 wasbeurten.",
+    "brand": "FLEURIL"
+  },
+  {
+    "product_name": "Wasverzachter 38 wasbeurten.",
+    "brand": "DREFT"
+  },
+  {
+    "product_name": "Luchtverfrisser 250 ml.",
+    "brand": "AIR WICK"
+  },
+  {
+    "product_name": "Handzeep OP=OP. 250 ml.",
+    "brand": "UNICURA"
+  },
+  {
+    "product_name": "Vaatwas-tabletten all-in-1 40 tabs",
+    "brand": "UNA"
+  },
+  {
+    "product_name": "Komkommer",
+    "brand": "None"
+  },
+  {
+    "product_name": "Hongaarse cordon bleu's Inhoud: 4 stuks, 488 g.",
+    "brand": "None"
+  },
+  {
+    "product_name": "Serrano specialiteit Jam\u00f3n of gran reserva. 80-100 g.",
+    "brand": "TESOROS DEL SUR"
+  },
+  {
+    "product_name": "Witte kaiserbroodjes 10 stuks.",
+    "brand": "None"
+  },
+  {
+    "product_name": "Appel-kaneelvla 1 l.",
+    "brand": "MILSANI"
+  },
+  {
+    "product_name": "Speculoosvlecht OP=OP. Ovenvers.",
+    "brand": "None"
+  },
+  {
+    "product_name": "Amaryllismix 12 cm",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Lidcactus 12 cm",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Dwergspar met led-verlichting 15 cm",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Poinsettia Potmaat: 6 cm.",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Amaryllis",
+    "brand": "Amaryllis"
+  },
+  {
+    "product_name": "Week- of jaarkalender",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Bloemen- boeket bouwset Kerstvuur met roodtinten of wintermagie met winterse kleuren. 400 bouwstukjes.",
+    "brand": "Unknown"
+  },
+  {
+    "product_name": "Tafelsportspel Compacte tafelvoetbal- of airhockeyset. Eenvoudige montage. Ca. 50x31 cm.",
+    "brand": "CRANE"
+  },
+  {
+    "product_name": "Puzzel met speciale effecten Met unieke afwerking, zoals holographic foil en glitter. 1000 stukjes. Ca. 48x68 cm.",
+    "brand": null
+  },
+  {
+    "product_name": "Retro spelconsole Compacte spelconsole met 240 retro-arcadespellen.",
+    "brand": "\u03a4\u039f\u03a5 Lino"
+  },
+  {
+    "product_name": "Premium houten puzzel 191-229 stukjes. Ca. 29x29 cm of 36x29 cm.",
+    "brand": null
+  },
+  {
+    "product_name": "2-pack putty Kneedbaar slijm.",
+    "brand": "\u03a4\u039f\u03a5 Lino"
+  },
+  {
+    "product_name": "20-pack AA- of AAA- batterijen",
+    "brand": "ACTIV ENERGY"
+  },
+  {
+    "product_name": "Kerstelf Ca. 43.5x6.5 cm. Per stuk.",
+    "brand": "TOY Lino"
+  },
+  {
+    "product_name": "Kerst squishie Kerstbal, pinguin, kabouter of peperkoekhuisje. 30 cm. Per stuk.",
+    "brand": "TOY Lino"
+  },
+  {
+    "product_name": "2-pack kerstknuffels Glow in the dark-effect.",
+    "brand": "TOY Lino"
+  },
+  {
+    "product_name": "Opberg-mand Dinosaurus, hert of beer. Ca. 25x18 cm. Per stuk.",
+    "brand": "HOME CREATION"
+  },
+  {
+    "product_name": "Kip kerrie-, oude kaas- of kip bamba-salade 250 g.",
+    "brand": "Daylicious"
+  },
+  {
+    "product_name": "Houten kerstdecoratie",
+    "brand": "HOME CREATION"
+  },
+  {
+    "product_name": "Vilten ledkerstdecoratie",
+    "brand": "HOME CREATION"
+  },
+  {
+    "product_name": "Echt lamsvacht vloerkleed Ca. 60x80-90 cm",
+    "brand": "HOME CREATION"
+  },
+  {
+    "product_name": "Infinity kerstverlichting Kabel Lengte: ca. 19 cm",
+    "brand": "HOME CREATION"
+  },
+  {
+    "product_name": "Geurkaars in glas Brandduur: ca. 25 uur. Ca. \u00d8 9x13-14.5 cm. Per stuk.",
+    "brand": "HOME CREATION"
+  },
+  {
+    "product_name": "Ledkaarsen echte was Met ingebouwde timer. Incl. batterijen. 2- of 3-delig. Per set.",
+    "brand": "CASALUX"
+  },
+  {
+    "product_name": "Papieren kerstdecoratie Sneeuwpop, beige kerstboom (per stuk), sneeuwvlokken, kerststerren, groene kerst-bomen (2-pack), engelen, kerstballen of ornamenten (8-pack). Per stuk/set.",
+    "brand": "HOME CREATION"
+  },
+  {
+    "product_name": "Slotenassortiment Per stuk/set.",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Water- en vuur- bestendige koffer IPX6 en LFS30. Ca. 16x39x34 cm. Per stuk.",
+    "brand": "WORKZONE"
+  },
+  {
+    "product_name": "Werkhand- schoenen Latex coating. 7 (S) t/m 10 (XL). Per paar.",
+    "brand": "TOPCRAFT"
+  },
+  {
+    "product_name": "Werkjas M t/m XL. Per stuk.",
+    "brand": "TOPCRAFT"
+  },
+  {
+    "product_name": "Werk- laarzen Bovenwerk van runder- leer. Met stalen neus. Veiligheids- klasse S3, CE- en GS-gecerti- ficeerd. 41 t/m 46. Per paar.",
+    "brand": "TOPCRAFT"
+  }
+]
