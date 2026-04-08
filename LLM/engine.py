@@ -6,12 +6,12 @@ from llama_cpp import Llama
 
 # Default model path (using absolute path for stability)
 _BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DEFAULT_MODEL_PATH = os.path.join(_BASE_DIR, "LLM", "Mistral-7B-Instruct-v0.3-Q6_K.gguf")
+DEFAULT_MODEL_PATH = os.path.join(_BASE_DIR, "LLM", "Llama-3.2-3B-Instruct-Q4_K_M.gguf")
 
 # Global singleton storage
 _LLM = None
 
-def start_engine(model_path: str = DEFAULT_MODEL_PATH, n_ctx: int = 1024, n_threads: int = 4):
+def start_engine(model_path: str = DEFAULT_MODEL_PATH, n_ctx: int = 4096, n_threads: int = 4):
     """
     Initialize the LLM engine and load it into RAM.
     Does nothing if already started.
@@ -50,7 +50,7 @@ def stop_engine():
     gc.collect()
     print("✅ RAM cleared.")
 
-def run_inference(data: str, response_model, prompt: str, max_tokens: int = 256, retries: int = 3):
+def run_inference(data: str, response_model, prompt: str, max_tokens: int = 2048, retries: int = 3):
     """
     Perform structured extraction from data.
     Returns a dictionary (parsed JSON) matching the model fields.
@@ -77,14 +77,16 @@ def run_inference(data: str, response_model, prompt: str, max_tokens: int = 256,
         "You are a professional data extraction assistant. "
         "Extract information from the provided data and return a valid JSON object. "
         "Follow these field instructions precisely:\n"
-        f"{field_instructions}\n"
-        "Respond ONLY with the JSON object, no preamble or explanation."
+        f"{field_instructions}\n\n"
+        f"Your output MUST perfectly match this JSON Schema format:\n"
+        f"{json.dumps(response_model.model_json_schema(), indent=2)}\n\n"
+        "Respond ONLY with the perfectly formatted JSON object. No preamble, no explanation."
     )
     
     user_prompt = f"{prompt}\n---\nData: {data}"
 
-    # 2. Schema for constrained generation
-    schema = response_model.model_json_schema()
+    # 2. Schema calculation for system prompt only (grammar deadlock bypass)
+    # schema = response_model.model_json_schema()
 
     # 3. Retry loop
     for attempt in range(retries):
@@ -99,8 +101,7 @@ def run_inference(data: str, response_model, prompt: str, max_tokens: int = 256,
                 max_tokens=max_tokens,
                 temperature=0,  # Deterministic
                 response_format={
-                    "type": "json_object",
-                    "schema": schema
+                    "type": "json_object"
                 }
             )
 

@@ -96,3 +96,11 @@ Valid Dutch Categories:
 
 # --- TASK PAIRINGS ---
 DUTCH_GROCERY_TASK = (DutchGroceryModel, DUTCH_GROCERY_PROMPT)
+
+class DutchGroceryBatch(BaseModel):
+    """
+    List of multiple extracted deals for batch processing.
+    """
+    deals: list[DutchGroceryModel]
+
+DUTCH_GROCERY_BATCH_TASK = (DutchGroceryBatch, DUTCH_GROCERY_PROMPT)
