@@ -14,11 +14,27 @@ from scraper.database import DealDatabase
 from LLM.engine import start_engine, run_inference, stop_engine
 from LLM.models import DutchGroceryModel, DUTCH_GROCERY_PROMPT, DutchGroceryBatch, DUTCH_GROCERY_BATCH_TASK
 
-def enrich_deals(limit=None, batch_size=10):
+def enrich_deals(limit=None, batch_size=None):
     """
     Fetch un-enriched deals from the DB and process them through the LLM.
     Uses Clustering to reduce LLM calls and Batching for parallel inference speed.
     """
+    # 0. Auto-Load Hardware Profile
+    if batch_size is None:
+        profile_path = os.path.join(project_root, "data", "hardware_profile.json")
+        if os.path.exists(profile_path):
+            try:
+                with open(profile_path, "r", encoding="utf-8") as f:
+                    profile = json.load(f)
+                    batch_size = profile.get("optimal_batch_size", 5)
+                    print(f"⚙️ Loaded Hardware Profile: Auto-calibrated batch size to {batch_size}")
+            except:
+                batch_size = 5
+        else:
+            batch_size = 5 # Default safe dual-core baseline
+            print(f"⚠️ No hardware profile found. Using safe default batch size: {batch_size}")
+            print(f"   (Run 'python scripts/benchmark_cpu.py' to optimize this for your machine!)")
+
     db = DealDatabase()
     
     # 1. Fetch raw deals (brand IS NULL means they haven't been enriched)
@@ -157,7 +173,7 @@ def enrich_deals(limit=None, batch_size=10):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Enrich raw grocery deals using a local LLM.")
     parser.add_argument("--limit", type=int, help="Limit the number of clusters to process")
-    parser.add_argument("--batch", type=int, default=10, help="Batch size for LLM inference")
+    parser.add_argument("--batch", type=int, default=None, help="Batch size for LLM inference (Overrides Hardware Profile)")
     
     args = parser.parse_args()
     enrich_deals(limit=args.limit, batch_size=args.batch)

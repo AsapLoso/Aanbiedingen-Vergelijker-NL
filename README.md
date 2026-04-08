@@ -53,7 +53,16 @@ Executes scraping and processing sequentially:
 python scripts/run_pipeline.py
 ```
 
-### 4. Local LLM Framework (Power Users)
+### 2. CPU Hardware Optimization (Benchmarking)
+If you are running the LLM engine locally on a CPU, you MUST optimize the logical batch size for your specific hardware. Large batches on older CPUs suffer from quadratic calculation slowdowns ($N^2$).
+
+Run the benchmark utility to find your "Hardware Sweet-Spot":
+```bash
+python scripts/benchmark_cpu.py --max 10
+```
+*Note: This optimization is strictly for **CPU inference**. If you process via a dedicated GPU (CUDA/Metal), larger batches will linearly improve throughput.*
+
+### 3. Local LLM Framework (Power Users)
 The project includes a localized LLM engine (`llama-cpp-python`) for structured data extraction.
 
 **Initialization**:
