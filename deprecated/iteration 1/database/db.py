@@ -108,7 +108,7 @@ def add_product(store, week, year, page_number, product_data):
         c.execute('''
             INSERT INTO products (store, week, year, page_number, brand, product_name, amount, deal_price, original_price_text, box_2d, category, standardized_name)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        ''', (store, week, year, page_num, 
+        ''', (store, week, year, page_number, 
               product_data.get('brand'), 
               product_data.get('product_name'), 
               product_data.get('amount'), 
